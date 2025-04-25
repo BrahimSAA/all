@@ -3,7 +3,7 @@ const courses = [
     {
         title: "Security Operations Center",
         description: "Learn SOC fundamentals, threat detection, and incident response techniques.",
-        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRywJ6jN3qTzU1yKzfOi8h4XgwbeBI3pEUP9g&s",
         link: "https://brahimsaa.github.io/soc",
         category: "cybersecurity"
     },
