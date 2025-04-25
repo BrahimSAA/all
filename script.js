@@ -24,70 +24,70 @@ const courses = [
     {
         title: "Malware Analysis",
         description: "Understand malware behavior, reverse engineering, and defense strategies.",
-        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        image: "https://sectigostore.com/blog/wp-content/uploads/2020/09/malware-analysis-feature.jpg",
         link: "https://brahimsaa.github.io/malware",
         category: "cybersecurity"
     },
     {
         title: "Certified Ethical Hacker",
         description: "Master ethical hacking techniques and penetration testing methodologies.",
-        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        image: "https://cihbyesaip.esaip.org/wp-content/uploads/sites/6/2023/05/ethical-hacking-1024x683.png",
         link: "https://brahimsaa.github.io/ceh",
         category: "cybersecurity"
     },
     {
         title: "OSINT Fundamentals",
         description: "Learn open-source intelligence gathering techniques for investigations.",
-        image: "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        image: "https://cdn.prod.website-files.com/62233c592d2a1e009d42f46c/66e6622dab41021595585f21_66e6622695c2eb7826ddfeff_Osint%2520Cyber%2520Min.webp",
         link: "https://brahimsaa.github.io/osint",
         category: "cybersecurity"
     },
     {
         title: "Linux Administration",
         description: "Essential Linux skills for system administration and security professionals.",
-        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80",
+        image: "https://www.meilleure-innovation.com/wp-content/uploads/2022/02/linux-1206x679.png",
         link: "https://brahimsaa.github.io/linux",
         category: "systems"
     },
     {
         title: "API Security",
         description: "Understand API vulnerabilities and how to secure modern web applications.",
-        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        image: "https://miro.medium.com/v2/resize:fit:1400/1*_iUKfrLN0BAKNHvI990crQ.png",
         link: "https://brahimsaa.github.io/api",
         category: "programming"
     },
     {
         title: "Kubernetes",
         description: "Container orchestration mastery with Kubernetes for scalable deployments.",
-        image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        image: "https://globalit.com.tr/wp-content/uploads/2022/10/kubernetes-nedir-ne-ise-yarar.jpg",
         link: "https://brahimsaa.github.io/Kubernetes",
         category: "devops"
     },
     {
         title: "Database Fundamentals",
         description: "Essential database concepts, SQL queries, and administration basics.",
-        image: "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1458&q=80",
+        image: "https://media2.dev.to/dynamic/image/width=1000,height=420,fit=cover,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fmi6h1hnetwyvqyi5hgnv.png",
         link: "https://brahimsaa.github.io/db",
         category: "databases"
     },
     {
         title: "Java Programming",
         description: "Comprehensive Java development from basics to advanced concepts.",
-        image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
+        image: "https://www.mytaskpanel.com/wp-content/uploads/2023/04/consulting-blog-09.webp",
         link: "https://brahimsaa.github.io/Java",
         category: "programming"
     },
     {
         title: "Docker",
         description: "Containerization with Docker for efficient application deployment.",
-        image: "https://images.unsplash.com/photo-1625832011785-3e7a9d56ea91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        image: "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/02/docker-logo__w1200.png",
         link: "https://brahimsaa.github.io/docker",
         category: "devops"
     },
     {
         title: "Git Version Control",
         description: "Master Git for collaborative software development and version control.",
-        image: "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        image: "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdr_5EA31PeBeGj1qBPYeATWABADA6KNuo28j4BZTA4jQiZBTDxeXn5D1vbuUiFPTqXROMmHrsVAFP4R9Det7O2OIy0SREzMrGEDG3bD5RRnGhHytrjA-no0HA1kq2i6DGrBj2oqrj5qdBICbn7nWF5Rx1RLCMf2VtX3F9naf3pgNo8iR9SNd0=s2048?key=JGQqazrxg4vzpdmzyRxaWQ",
         link: "https://brahimsaa.github.io/git",
         category: "tools"
     }
