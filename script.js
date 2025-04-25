@@ -55,6 +55,41 @@ const courses = [
         image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
         link: "https://brahimsaa.github.io/api",
         category: "programming"
+    },
+    {
+        title: "Kubernetes",
+        description: "Container orchestration mastery with Kubernetes for scalable deployments.",
+        image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/Kubernetes",
+        category: "devops"
+    },
+    {
+        title: "Database Fundamentals",
+        description: "Essential database concepts, SQL queries, and administration basics.",
+        image: "https://images.unsplash.com/photo-1543949806-2c9935e6aa78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1458&q=80",
+        link: "https://brahimsaa.github.io/db",
+        category: "databases"
+    },
+    {
+        title: "Java Programming",
+        description: "Comprehensive Java development from basics to advanced concepts.",
+        image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
+        link: "https://brahimsaa.github.io/Java",
+        category: "programming"
+    },
+    {
+        title: "Docker",
+        description: "Containerization with Docker for efficient application deployment.",
+        image: "https://images.unsplash.com/photo-1625832011785-3e7a9d56ea91?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/docker",
+        category: "devops"
+    },
+    {
+        title: "Git Version Control",
+        description: "Master Git for collaborative software development and version control.",
+        image: "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/git",
+        category: "tools"
     }
 ];
 
