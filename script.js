@@ -90,6 +90,55 @@ const courses = [
         image: "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdr_5EA31PeBeGj1qBPYeATWABADA6KNuo28j4BZTA4jQiZBTDxeXn5D1vbuUiFPTqXROMmHrsVAFP4R9Det7O2OIy0SREzMrGEDG3bD5RRnGhHytrjA-no0HA1kq2i6DGrBj2oqrj5qdBICbn7nWF5Rx1RLCMf2VtX3F9naf3pgNo8iR9SNd0=s2048?key=JGQqazrxg4vzpdmzyRxaWQ",
         link: "https://brahimsaa.github.io/git",
         category: "tools"
+    },
+    {
+        title: "AWS Cloud Practitioner",
+        description: "Fundamentals of AWS cloud services and infrastructure.",
+        image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80",
+        link: "https://brahimsaa.github.io/AWS_CloudPractitioner",
+        category: "cloud"
+    },
+    {
+        title: "AWS Solutions Architect",
+        description: "Design distributed systems on AWS following best practices.",
+        image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/AWS_SolutionsArchitect",
+        category: "cloud"
+    },
+    {
+        title: "Bash Scripting",
+        description: "Automate tasks and write powerful shell scripts in Bash.",
+        image: "https://images.unsplash.com/photo-1639762681057-408e52192e55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1632&q=80",
+        link: "https://brahimsaa.github.io/BashScripting",
+        category: "systems"
+    },
+    {
+        title: "CompTIA Security+",
+        description: "Prepare for the SY0-601 exam with comprehensive security training.",
+        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/ComptiaSecurity",
+        category: "certification"
+    },
+    {
+        title: "Complete Cybersecurity Bootcamp",
+        description: "End-to-end cybersecurity training from fundamentals to advanced techniques.",
+        image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/CompleteCybersecurityBootcamp",
+        category: "cybersecurity"
+    },
+    {
+        title: "Microsoft Azure",
+        description: "Cloud computing with Microsoft Azure services and solutions.",
+        image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/azure",
+        category: "cloud"
+    },
+    {
+        title: "PHP Programming",
+        description: "Server-side web development with PHP and modern frameworks.",
+        image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
+        link: "https://brahimsaa.github.io/php",
+        category: "web development"
     }
 ];
 
