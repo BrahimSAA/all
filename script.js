@@ -141,32 +141,53 @@ const courses = [
         category: "web development"
     },
     {
-    title: "Windows Server 2022",
-    description: "Comprehensive training on Windows Server installation, configuration, and administration.",
-    image: "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    link: "https://brahimsaa.github.io/Windows_Server_2022",
-    category: "windows administration"
+        title: "Windows Server 2022",
+        description: "Comprehensive training on Windows Server installation, configuration, and administration.",
+        image: "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/Windows_Server_2022",
+        category: "windows administration"
     },
     {
-    title: "DevOps with Linux",
-    description: "Learn essential DevOps practices using Linux environments, including CI/CD, automation, and containerization.",
-    image: "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    link: "https://brahimsaa.github.io/DevOps_Linux",
-    category: "devops"
+        title: "DevOps with Linux",
+        description: "Learn essential DevOps practices using Linux environments, including CI/CD, automation, and containerization.",
+        image: "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/DevOps_Linux",
+        category: "devops"
     },
     {
-    title: "Bug Bounty Hunting",
-    description: "Learn ethical hacking techniques to find and report vulnerabilities for bug bounty programs.",
-    image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
-    link: "https://brahimsaa.github.io/BugBounty",
-    category: "cybersecurity"
+        title: "Bug Bounty Hunting",
+        description: "Learn ethical hacking techniques to find and report vulnerabilities for bug bounty programs.",
+        image: "https://images.unsplash.com/photo-1563986768609-322da13575f3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/BugBounty",
+        category: "cybersecurity"
     },
     {
-    title: "JavaScript Programming",
-    description: "Master JavaScript fundamentals and modern ES6+ features for web development.",
-    image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
-    link: "https://brahimsaa.github.io/javascript",
-    category: "web development"
+        title: "JavaScript Programming",
+        description: "Master JavaScript fundamentals and modern ES6+ features for web development.",
+        image: "https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1528&q=80",
+        link: "https://brahimsaa.github.io/javascript",
+        category: "web development"
+    },
+    {
+        title: "Linux بالعربية",
+        description: "تعلم أساسيات إدارة أنظمة لينكس باللغة العربية للمبتدئين والمحترفين",
+        image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1472&q=80",
+        link: "https://brahimsaa.github.io/Linux_arabic",
+        category: "أنظمة"
+    },
+    {
+        title: "Docker و Kubernetes بالعربية",
+        description: "دورة متكاملة عن الحاويات وإدارة الكلاستر باللغة العربية",
+        image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/DockerKubernetes_Arabic",
+        category: "DevOps"
+    },
+    {
+        title: "Git بالعربية",
+        description: "إدارة المشاريع البرمجية باستخدام Git و GitHub باللغة العربية",
+        image: "https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
+        link: "https://brahimsaa.github.io/Git_Arabic",
+        category: "أدوات تطوير"
     }
 ];
 
