@@ -85,13 +85,6 @@ const courses = [
         category: "devops"
     },
     {
-        title: "Git Version Control",
-        description: "Master Git for collaborative software development and version control.",
-        image: "https://lh7-rt.googleusercontent.com/slidesz/AGV_vUdr_5EA31PeBeGj1qBPYeATWABADA6KNuo28j4BZTA4jQiZBTDxeXn5D1vbuUiFPTqXROMmHrsVAFP4R9Det7O2OIy0SREzMrGEDG3bD5RRnGhHytrjA-no0HA1kq2i6DGrBj2oqrj5qdBICbn7nWF5Rx1RLCMf2VtX3F9naf3pgNo8iR9SNd0=s2048?key=JGQqazrxg4vzpdmzyRxaWQ",
-        link: "https://brahimsaa.github.io/git",
-        category: "tools"
-    },
-    {
         title: "AWS Cloud Practitioner",
         description: "Fundamentals of AWS cloud services and infrastructure.",
         image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80",
@@ -132,13 +125,6 @@ const courses = [
         image: "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80",
         link: "https://brahimsaa.github.io/azure",
         category: "cloud"
-    },
-    {
-        title: "PHP Programming",
-        description: "Server-side web development with PHP and modern frameworks.",
-        image: "https://images.unsplash.com/photo-1573164713988-8665fc963095?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80",
-        link: "https://brahimsaa.github.io/php",
-        category: "web development"
     },
     {
         title: "Windows Server 2022",
