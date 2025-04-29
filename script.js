@@ -80,7 +80,7 @@ const courses = [
     {
         title: "Docker",
         description: "Containerization with Docker for efficient application deployment.",
-        image: "https://www.zdnet.fr/wp-content/uploads/zdnet/2024/02/docker-logo__w1200.png",
+        image: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAAAZlBMVEX///8klu0clO0Aj+xZqvAAjezg7/wAkOze7fzH4PmAu/N4t/LZ6/tnr/Hl8f1Sp/D1+v7O5PrE3vlytfIAiOvU6Pvw+P5rsfHr9P0zm+6GvvOOwvS11viYx/U9n+6q0Pefy/az1fcOnXwsAAADo0lEQVR4nO3ce5eiIBgGcASR6eKli6VNZX3/L7k2k2IlbSMohc/vr+U4Oweeg+KL7BICAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAJ1kYcVf2u7LB1lyeiVmtvvyQSbMu6JT2335IIitE8TWCWLrBLF1gtg6QWydLNbsao3Y/iD4qtjuCThi41fiPUlk40wy2UBNem8iK88VmdcNGqImfWYi6vVyRuZy8Qyxkj6jFZt3GLSvb0QnthkVeTRsd99DphPbnJeX2GTgLr8Hjdh8ernGR5lb99gC/nuRBUP3+Q10j21Hr1fzofv8BtK68uRTEsjGtlGT8l3b38yvsXnie+hOvwFZeSaERM3G85o0qCejxzZDd/pz7eu726OjmG5JWBebJ7KJ22vSgmRxoybNmj/245vK2KjdAQ0jkpXnsXzwv1STPhaoMxmbx+d2RzSISC6R8asr6c2P/dg2YqNFEqWTSRoldkfWKzOxrRqxlavp75pL44Ozb3FmYvu+ia2+SnmY2R1eX8zEdpYr6V1yws1yy0xs8rfcE2e74+uJmdjIURUbc3NhMBRbobhLhaN7l9maV+KyJq3+vL7UpHXjUpPWjV2zUdf1eeui4Dlb2WfB1U8ZWjdIs6G+Uv+WsC02yvBVVSlJC5+1p+beMrrY+kbEuWBC8dq2sD1I4/ay4tTUvhaUU813cAvJUw3XhLLG57F7U618hCvfT3Uxzlm+LdwsqjZ9xcbSzMF7s9JXbOU7s8sSVe2tiTl+HqmfFYF6tsfVs35WUnGyPa6eKbcstFA39zukbR+zzf2Pfe3b2JqE65NNvY2tk5rzk42k5l/cqPNPtl5e3ERhe1ADML+UOruT27QzvSZwF7c8HiwNP9zoOP69guGHm/NlVcU3epeO4xYlN0f59Ln6PfSRybuU+rZHM5ypsbuU5u6/6Na+uLHY3PxyoGBoUaBsDMdOpbmR6UZ5ansgA1uZmG5sbKmZ+H5FqbPnc9XOurmJo8NfRdU098bZyvYALDlq5EYdPZj7gk3nL3+UxaN6Xbu1URwf/f9U29vuulVJ3KE4pcz9zy3/c+B/m3BUsN0oF9A7Qdx69lY10fLTiCr3pxbth5YfIqNCbN07x6whOhyZUJ7E/Y2MeaslJtq9qNh6TIjHY8yXSca88DSunY6/yJanqZ8Lxqv/iIEzkYe7YjLid7TXJVk0T0tBhCUTAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAODT/APkszKRDZCIWwAAAABJRU5ErkJggg==",
         link: "https://brahimsaa.github.io/docker",
         category: "devops"
     },
@@ -122,7 +122,7 @@ const courses = [
     {
         title: "Microsoft Azure",
         description: "Cloud computing with Microsoft Azure services and solutions.",
-        image: "https://www.edunao.com/app/uploads/2022/07/Microsoft-Azure.png",
+        image: "https://www.bleepstatic.com/content/hl-images/2022/04/28/microsoft-azure.jpg",
         link: "https://brahimsaa.github.io/azure",
         category: "cloud"
     },
@@ -164,7 +164,7 @@ const courses = [
     {
         title: "Docker و Kubernetes بالعربية",
         description: "دورة متكاملة عن الحاويات وإدارة الكلاستر باللغة العربية",
-        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWqnVeeWILK-TkEnI8Uio8MhN4VF7E8WkxoQ&s",
+        image: "https://www.blueshoe.io/_ipx/_/img/blog/docker-desktop-and-kubernetes.jpg",
         link: "https://brahimsaa.github.io/DockerKubernetes_Arabic",
         category: "DevOps"
     },
