@@ -223,7 +223,15 @@ const courses = [
         image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/3TDZkYDzRxaZGnwCHOvW",
         link: "https://brahimsaa.github.io/WindowsPrivilegeEscalation",
         category: "Windows Security"
+    },
+    {
+        title: "ASP.NET",
+        description: "A comprehensive guide to securing ASP.NET applications, focusing on common vulnerabilities and mitigations. - YourCompany",
+        image: "https://eluminoustechnologies.com/blog/wp-content/uploads/2023/10/1-4.jpg",  // Replace with actual image URL
+        link: "https://brahimsaa.github.io/dotnet",  // Replace with actual link
+        category: "Web Development"
     }
+
 ];
 
 // Display courses
