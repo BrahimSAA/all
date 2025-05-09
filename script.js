@@ -230,7 +230,15 @@ const courses = [
         image: "https://eluminoustechnologies.com/blog/wp-content/uploads/2023/10/1-4.jpg",  // Replace with actual image URL
         link: "https://brahimsaa.github.io/dotnet",  // Replace with actual link
         category: "Web Development"
+    },
+    {
+        title: "ASP.NET Core",
+        description: "A comprehensive guide to securing ASP.NET applications, focusing on common vulnerabilities and mitigations. - YourCompany",
+        image: "https://www.negox.com/content/img/aspnet-core.png",  // Replace with actual image URL
+        link: "https://brahimsaa.github.io/ASP.NET-Core",  // Replace with actual link
+        category: "Web Development"
     }
+    
 
 ];
 
