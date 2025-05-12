@@ -237,8 +237,14 @@ const courses = [
         image: "https://www.negox.com/content/img/aspnet-core.png",  // Replace with actual image URL
         link: "https://brahimsaa.github.io/ASP.NET-Core",  // Replace with actual link
         category: "Web Development"
-    }
-    
+    },
+    {
+        title: "CCNA & Networking Fundamentals",
+        description: "An in-depth resource covering core networking concepts, protocols, and hands-on configurations to help you prepare for the CCNA certification. - YourCompany",
+        image: "https://djgeqya1wekbj.cloudfront.net/product-images/600-600/Cisco-CCNA-200-301-Online-1200x600.jpg",  // Replace with another image URL if preferred
+        link: "https://brahimsaa.github.io/CCNA",  // Replace with actual link or your own content
+        category: "Networking"
+    }   
 
 ];
 
