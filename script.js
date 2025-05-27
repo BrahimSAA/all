@@ -248,7 +248,7 @@ const courses = [
     {
        title: "C# for Hackers",
        description: "A specialized guide covering C# programming techniques, security concepts, and penetration testing applications for cybersecurity professionals. - YourCompany",
-       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaWJdkkOd6uIYR7lL9bC6w6LUXv9z9YGQgA&s",
+       image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg",
        link: "https://brahimsaa.github.io/C_sharp",
        category: "Cybersecurity"
     }
