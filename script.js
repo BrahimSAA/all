@@ -244,7 +244,14 @@ const courses = [
         image: "https://djgeqya1wekbj.cloudfront.net/product-images/600-600/Cisco-CCNA-200-301-Online-1200x600.jpg",  // Replace with another image URL if preferred
         link: "https://brahimsaa.github.io/CCNA",  // Replace with actual link or your own content
         category: "Networking"
-    }   
+    },
+    {
+       title: "C# for Hackers",
+       description: "A specialized guide covering C# programming techniques, security concepts, and penetration testing applications for cybersecurity professionals. - YourCompany",
+       image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBaWJdkkOd6uIYR7lL9bC6w6LUXv9z9YGQgA&s",
+       link: "https://brahimsaa.github.io/C_sharp",
+       category: "Cybersecurity"
+    }
 
 ];
 
