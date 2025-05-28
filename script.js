@@ -258,6 +258,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/32213227/pexels-photo-32213227.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/Mastering_Kubernetes",
         "category": "programming"
+    },
+    {
+        "title": "AWS Certified Cloud Practitioner",
+        "description": "This course provides a foundational understanding of AWS cloud concepts, services, security, architecture, and pricing, preparing individuals for the AWS Certified Cloud Practitioner exam. It covers essential knowledge needed to effectively demonstrate overall comprehension of the AWS Cloud.",
+        "image": "https://images.pexels.com/photos/32268496/pexels-photo-32268496.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/AWS_Certified_Cloud_Practitioner",
+        "category": "business"
     }
 
 ];
