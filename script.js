@@ -125,6 +125,13 @@ const courses = [
         "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_z9Gtz-GV0uMw0JqKvKIv0DQZPGUPbJM8C3MMHu1aBX9_kU8Z6SZs8s9ddqJ-NcjzdUMeSaPUhfVxWrv-Vl9_rl5yXEOdLtrI8wgTmANoPfnogR_YCqJPO85ne4CwNRSc79x4GFX_3bXQm48c2uYjaSSVjD9cCCVpYdrvILMdZdsxtT_CkvJyvsl9Th_8/s320/ADBMS_GMeet%20Discussion%20Board_Aug%2024%202023.jpg",
         "link": "https://BrahimSAA.github.io/Advanced_Databases",
         "category": "data-science"
+    },
+    {
+        "title": "Java Essentials",
+        "description": "This course covers the fundamental concepts of Java programming, providing students with the skills to write, compile, and execute basic Java applications. It explores core language features, object-oriented programming principles, and essential Java APIs.",
+        "image": "https://m.media-amazon.com/images/I/91AB88mdK8L._AC_UF350,350_QL50_.jpg",
+        "link": "https://BrahimSAA.github.io/Java_Essentials",
+        "category": "programming"
     }
 
 ];
