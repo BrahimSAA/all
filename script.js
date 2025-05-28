@@ -293,6 +293,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/Complete_Cybersecurity_Bootcamp",
         "category": "cybersecurity"
+    },
+    {
+        "title": "CompTIA Security+ Certification Bootcamp",
+        "description": "Prepare for the CompTIA Security+ certification exam with this intensive bootcamp, covering essential security concepts and hands-on skills. Gain the knowledge and confidence needed to pass the exam and advance your cybersecurity career.",
+        "image": "https://images.pexels.com/photos/12324202/pexels-photo-12324202.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/CompTIA_Security+_Certification_Bootcamp",
+        "category": "cybersecurity"
     }
 
 ];
