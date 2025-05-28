@@ -1,117 +1,116 @@
 // Course data
 const courses = [
     {
-        title: "Security Operations Center",
-        description: "Learn SOC fundamentals, threat detection, and incident response techniques. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/doDD6MrQgma58qFv0TSP",
-        link: "https://BrahimSAA.github.io/TCM_-_Security_Operations_-SOC-_101_2024-8/",
-        category: "cybersecurity"
+        "title": "Security Operations (SOC) 101",
+        "description": "Learn SOC fundamentals, threat detection, and incident response techniques. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/doDD6MrQgma58qFv0TSP",
+        "link": "https://BrahimSAA.github.io/Security_Operations_-SOC-_101/",
+        "category": "cybersecurity"
     },
     {
-        title: "Python Programming 1",
-        description: "Beginner-friendly introduction to Python programming fundamentals. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/qT5GRyTSHWEoH1Euq7ym",
-        link: "https://BrahimSAA.github.io/TCM_-_Python_101_for_Hackers/",
-        category: "programming"
+        "title": "Python 101 for Hackers",
+        "description": "Beginner-friendly introduction to Python programming fundamentals. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/qT5GRyTSHWEoH1Euq7ym",
+        "link": "https://BrahimSAA.github.io/Python_101_for_Hackers/",
+        "category": "programming"
     },
     {
-        title: "Python Programming 2",
-        description: "Advanced Python concepts including OOP, decorators, and async programming. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/xUP2OWjTTuG1Pzx8AL8u",
-        link: "https://BrahimSAA.github.io/TCM_-_Python_201_For_Hackers/",
-        category: "programming"
+        "title": "Python 201 For Hackers",
+        "description": "Advanced Python concepts including OOP, decorators, and async programming. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/xUP2OWjTTuG1Pzx8AL8u",
+        "link": "https://BrahimSAA.github.io/Python_201_For_Hackers/",
+        "category": "programming"
     },
     {
-        title: "Malware Analysis",
-        description: "Understand malware behavior, reverse engineering, and defense strategies. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/KWZgSZeATJmhuBdIhLGN",
-        link: "https://BrahimSAA.github.io/TCM_-_Practical_Malware_Analysis_-_Triage_2024-9/",
-        category: "cybersecurity"
+        "title": "Practical Malware Analysis and Triage",
+        "description": "Understand malware behavior, reverse engineering, and defense strategies. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/KWZgSZeATJmhuBdIhLGN",
+        "link": "https://BrahimSAA.github.io/Practical_Malware_Analysis_and_Triage/",
+        "category": "cybersecurity"
     },
     {
-        title: "Certified Ethical Hacker",
-        description: "Master ethical hacking techniques and penetration testing methodologies. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/25Jl6X5mQ6iALUtb931B",
-        link: "https://BrahimSAA.github.io/TCM_-_Practical_Ethical_Hacking_2024-9/",
-        category: "cybersecurity"
+        "title": "Practical Ethical Hacking",
+        "description": "Master ethical hacking techniques and penetration testing methodologies. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/25Jl6X5mQ6iALUtb931B",
+        "link": "https://BrahimSAA.github.io/Practical_Ethical_Hacking/",
+        "category": "cybersecurity"
     },
     {
-        title: "OSINT Fundamentals",
-        description: "Learn open-source intelligence gathering techniques for investigations. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/cndIXbcWSsXldQrB5jTo",
-        link: "https://BrahimSAA.github.io/TCM_-_Open-Source_Intelligence_-OSINT-_Fundamentals/",
-        category: "cybersecurity"
+        "title": "Open-Source Intelligence (OSINT) Fundamentals",
+        "description": "Learn open-source intelligence gathering techniques for investigations. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/cndIXbcWSsXldQrB5jTo",
+        "link": "https://BrahimSAA.github.io/Open-Source_Intelligence_-OSINT-_Fundamentals/",
+        "category": "cybersecurity"
     },
     {
-        title: "Linux Administration",
-        description: "Essential Linux skills for system administration and security professionals. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/znrRDjrwRRykVhFB5Osj",
-        link: "https://BrahimSAA.github.io/TCM_-_Linux_101/",
-        category: "systems"
+        "title": "Linux 101",
+        "description": "Essential Linux skills for system administration and security professionals. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/znrRDjrwRRykVhFB5Osj",
+        "link": "https://BrahimSAA.github.io/Linux_101/",
+        "category": "systems"
     },
     {
-        title: "API Security",
-        description: "Understand API vulnerabilities and how to secure modern web applications. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/hDCDoCxRSGCa2vLD9UCV",
-        link: "https://BrahimSAA.github.io/TCM_-_Practical_API_Hacking/",
-        category: "programming"
-    },
-
-    {
-        title: "Detection Engineering",
-        description: "Build effective threat detection systems and security monitoring solutions. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/tS0hJsAARMWznu0NjWsh",
-        link: "https://BrahimSAA.github.io/TCM_Security_-_Detection_Engineering_for_Beginners_2024-9/",
-        category: "Cyber Defense"
+        "title": "Practical API Hacking",
+        "description": "Understand API vulnerabilities and how to secure modern web applications. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/hDCDoCxRSGCa2vLD9UCV",
+        "link": "https://BrahimSAA.github.io/Practical_API_Hacking/",
+        "category": "programming"
     },
     {
-        title: "Linux Privilege Escalation",
-        description: "Master privilege escalation techniques in Linux environments for penetration testing. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/6ZeARBwScaIN1UxGh5Z4",
-        link: "https://BrahimSAA.github.io/TCM_Security_-_Linux_Privilege_Escalation_for_Beginners_2024-8/",
-        category: "Penetration Testing"
+        "title": "Detection Engineering for Beginners",
+        "description": "Build effective threat detection systems and security monitoring solutions. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/tS0hJsAARMWznu0NjWsh",
+        "link": "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners/",
+        "category": "Cyber Defense"
     },
     {
-        title: "Mobile App Penetration Testing",
-        description: "Comprehensive guide to finding vulnerabilities in Android and iOS applications. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/lfFu7iSIyJwPhrR2yz1w",
-        link: "https://BrahimSAA.github.io/TCM_Security_-_Mobile_Application_Penetration_Testing_2024-9/",
-        category: "Mobile Security"
+        "title": "Linux Privilege Escalation for Beginners",
+        "description": "Master privilege escalation techniques in Linux environments for penetration testing. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/6ZeARBwScaIN1UxGh5Z4",
+        "link": "https://BrahimSAA.github.io/Linux_Privilege_Escalation_for_Beginners/",
+        "category": "Penetration Testing"
     },
     {
-        title: "Practical Bug Bounty",
-        description: "Real-world bug hunting techniques used by professional security researchers. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/pVs4ytz0RiG8bzlwDyox",
-        link: "https://BrahimSAA.github.io/Tcm_Security_-_Practical_Bug_Bounty_2024-1/",
-        category: "Ethical Hacking"
+        "title": "Mobile Application Penetration Testing",
+        "description": "Comprehensive guide to finding vulnerabilities in Android and iOS applications. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/lfFu7iSIyJwPhrR2yz1w",
+        "link": "https://BrahimSAA.github.io/Mobile_Application_Penetration_Testing/",
+        "category": "Mobile Security"
     },
     {
-        title: "Practical Phishing",
-        description: "Understand and defend against modern phishing techniques and social engineering. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/vIuC2QSyRNCclJ8oh3aQ",
-        link: "https://BrahimSAA.github.io/TCM_Security_-_Practical_Phishing_Campaigns_2024-9/",
-        category: "Social Engineering"
+        "title": "Practical Bug Bounty",
+        "description": "Real-world bug hunting techniques used by professional security researchers. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/pVs4ytz0RiG8bzlwDyox",
+        "link": "https://BrahimSAA.github.io/Practical_Bug_Bounty/",
+        "category": "Ethical Hacking"
     },
     {
-        title: "Practical Web Hacking",
-        description: "Hands-on web application penetration testing and vulnerability discovery. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/9c7K4sUTXOjS0vKWVr7V",
-        link: "https://BrahimSAA.github.io/Tcm_Security_-_Practical_Web_Hacking_2024-8/",
-        category: "Web Security"
+        "title": "Practical Phishing Campaigns",
+        "description": "Understand and defend against modern phishing techniques and social engineering. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/vIuC2QSyRNCclJ8oh3aQ",
+        "link": "https://BrahimSAA.github.io/Practical_Phishing_Campaigns/",
+        "category": "Social Engineering"
     },
     {
-        title: "Windows Privilege Escalation",
-        description: "Advanced techniques for escalating privileges in Windows environments. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/3TDZkYDzRxaZGnwCHOvW",
-        link: "https://BrahimSAA.github.io/Tcm_Security_-_Windows_Privilege_Escalation_for_Beginners_2020-5/",
-        category: "Windows Security"
+        "title": "Practical Web Hacking",
+        "description": "Hands-on web application penetration testing and vulnerability discovery. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/9c7K4sUTXOjS0vKWVr7V",
+        "link": "https://BrahimSAA.github.io/Practical_Web_Hacking/",
+        "category": "Web Security"
     },
     {
-       title: "C# for Hackers",
-       description: "A specialized guide covering C# programming techniques, security concepts, and penetration testing applications for cybersecurity professionals. - YourCompany",
-       image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg",
-       link: "https://BrahimSAA.github.io/TCM_Security_-_C-_101_for_Hackers/",
-       category: "Cybersecurity"
+        "title": "Windows Privilege Escalation for Beginners",
+        "description": "Advanced techniques for escalating privileges in Windows environments. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/3TDZkYDzRxaZGnwCHOvW",
+        "link": "https://BrahimSAA.github.io/Windows_Privilege_Escalation_for_Beginners/",
+        "category": "Windows Security"
+    },
+    {
+        "title": "C# 101 for Hackers",
+        "description": "A specialized guide covering C# programming techniques, security concepts, and penetration testing applications for cybersecurity professionals. - YourCompany",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg",
+        "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers/",
+        "category": "Cybersecurity"
     },
     {
         title: "Kubernetes",
