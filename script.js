@@ -132,6 +132,13 @@ const courses = [
         "image": "https://m.media-amazon.com/images/I/91AB88mdK8L._AC_UF350,350_QL50_.jpg",
         "link": "https://BrahimSAA.github.io/Java_Essentials",
         "category": "programming"
+    },
+    {
+        "title": "Mastering Kubernetes",
+        "description": "This course provides in-depth knowledge and practical skills to effectively deploy, manage, and scale applications using Kubernetes. You will learn essential concepts and best practices for container orchestration and automation.",
+        "image": "https://www.uptycs.com/hs-fs/hubfs/mastering-kubernetes-container-security.jpg?width=352&name=mastering-kubernetes-container-security.jpg",
+        "link": "https://BrahimSAA.github.io/Mastering_Kubernetes",
+        "category": "programming"
     }
 
 ];
