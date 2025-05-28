@@ -286,6 +286,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/4709291/pexels-photo-4709291.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/Bash_Scripting_Learn_Shell_Scripting",
         "category": "programming"
+    },
+    {
+        "title": "Complete Cybersecurity Bootcamp",
+        "description": "This comprehensive cybersecurity bootcamp provides students with the knowledge and skills needed to protect computer systems and networks from cyber threats. It covers a wide range of topics, from foundational security principles to advanced threat detection and incident response techniques.",
+        "image": "https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/Complete_Cybersecurity_Bootcamp",
+        "category": "cybersecurity"
     }
 
 ];
