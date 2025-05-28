@@ -56,6 +56,63 @@ const courses = [
         link: "https://BrahimSAA.github.io/TCM_-_Practical_API_Hacking/",
         category: "programming"
     },
+
+    {
+        title: "Detection Engineering",
+        description: "Build effective threat detection systems and security monitoring solutions. - TCM",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/tS0hJsAARMWznu0NjWsh",
+        link: "https://BrahimSAA.github.io/TCM_Security_-_Detection_Engineering_for_Beginners_2024-9/",
+        category: "Cyber Defense"
+    },
+    {
+        title: "Linux Privilege Escalation",
+        description: "Master privilege escalation techniques in Linux environments for penetration testing. - TCM",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/6ZeARBwScaIN1UxGh5Z4",
+        link: "https://BrahimSAA.github.io/TCM_Security_-_Linux_Privilege_Escalation_for_Beginners_2024-8/",
+        category: "Penetration Testing"
+    },
+    {
+        title: "Mobile App Penetration Testing",
+        description: "Comprehensive guide to finding vulnerabilities in Android and iOS applications. - TCM",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/lfFu7iSIyJwPhrR2yz1w",
+        link: "https://BrahimSAA.github.io/TCM_Security_-_Mobile_Application_Penetration_Testing_2024-9/",
+        category: "Mobile Security"
+    },
+    {
+        title: "Practical Bug Bounty",
+        description: "Real-world bug hunting techniques used by professional security researchers. - TCM",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/pVs4ytz0RiG8bzlwDyox",
+        link: "https://BrahimSAA.github.io/Tcm_Security_-_Practical_Bug_Bounty_2024-1/",
+        category: "Ethical Hacking"
+    },
+    {
+        title: "Practical Phishing",
+        description: "Understand and defend against modern phishing techniques and social engineering. - TCM",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/vIuC2QSyRNCclJ8oh3aQ",
+        link: "https://BrahimSAA.github.io/TCM_Security_-_Practical_Phishing_Campaigns_2024-9/",
+        category: "Social Engineering"
+    },
+    {
+        title: "Practical Web Hacking",
+        description: "Hands-on web application penetration testing and vulnerability discovery. - TCM",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/9c7K4sUTXOjS0vKWVr7V",
+        link: "https://BrahimSAA.github.io/Tcm_Security_-_Practical_Web_Hacking_2024-8/",
+        category: "Web Security"
+    },
+    {
+        title: "Windows Privilege Escalation",
+        description: "Advanced techniques for escalating privileges in Windows environments. - TCM",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/3TDZkYDzRxaZGnwCHOvW",
+        link: "https://BrahimSAA.github.io/Tcm_Security_-_Windows_Privilege_Escalation_for_Beginners_2020-5/",
+        category: "Windows Security"
+    },
+    {
+       title: "C# for Hackers",
+       description: "A specialized guide covering C# programming techniques, security concepts, and penetration testing applications for cybersecurity professionals. - YourCompany",
+       image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg",
+       link: "https://BrahimSAA.github.io/TCM_Security_-_C-_101_for_Hackers/",
+       category: "Cybersecurity"
+    },
     {
         title: "Kubernetes",
         description: "Container orchestration mastery with Kubernetes for scalable deployments.",
@@ -162,69 +219,6 @@ const courses = [
         category: "systems"
     },
     {
-        title: "Docker و Kubernetes بالعربية",
-        description: "دورة متكاملة عن الحاويات وإدارة الكلاستر باللغة العربية",
-        image: "https://www.blueshoe.io/_ipx/_/img/blog/docker-desktop-and-kubernetes.jpg",
-        link: "https://brahimsaa.github.io/DockerKubernetes_Arabic",
-        category: "DevOps"
-    },
-    {
-        title: "Git بالعربية",
-        description: "إدارة المشاريع البرمجية باستخدام Git و GitHub باللغة العربية",
-        image: "data:image/png;base64,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",
-        link: "https://brahimsaa.github.io/Git_Arabic",
-        category: "Development"
-    },
-    {
-        title: "Detection Engineering",
-        description: "Build effective threat detection systems and security monitoring solutions. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/tS0hJsAARMWznu0NjWsh",
-        link: "https://BrahimSAA.github.io/TCM_Security_-_Detection_Engineering_for_Beginners_2024-9/",
-        category: "Cyber Defense"
-    },
-    {
-        title: "Linux Privilege Escalation",
-        description: "Master privilege escalation techniques in Linux environments for penetration testing. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/6ZeARBwScaIN1UxGh5Z4",
-        link: "https://BrahimSAA.github.io/TCM_Security_-_Linux_Privilege_Escalation_for_Beginners_2024-8/",
-        category: "Penetration Testing"
-    },
-    {
-        title: "Mobile App Penetration Testing",
-        description: "Comprehensive guide to finding vulnerabilities in Android and iOS applications. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/lfFu7iSIyJwPhrR2yz1w",
-        link: "https://BrahimSAA.github.io/TCM_Security_-_Mobile_Application_Penetration_Testing_2024-9/",
-        category: "Mobile Security"
-    },
-    {
-        title: "Practical Bug Bounty",
-        description: "Real-world bug hunting techniques used by professional security researchers. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/pVs4ytz0RiG8bzlwDyox",
-        link: "https://BrahimSAA.github.io/Tcm_Security_-_Practical_Bug_Bounty_2024-1/",
-        category: "Ethical Hacking"
-    },
-    {
-        title: "Practical Phishing",
-        description: "Understand and defend against modern phishing techniques and social engineering. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/vIuC2QSyRNCclJ8oh3aQ",
-        link: "https://BrahimSAA.github.io/TCM_Security_-_Practical_Phishing_Campaigns_2024-9/",
-        category: "Social Engineering"
-    },
-    {
-        title: "Practical Web Hacking",
-        description: "Hands-on web application penetration testing and vulnerability discovery. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/9c7K4sUTXOjS0vKWVr7V",
-        link: "https://BrahimSAA.github.io/Tcm_Security_-_Practical_Web_Hacking_2024-8/",
-        category: "Web Security"
-    },
-    {
-        title: "Windows Privilege Escalation",
-        description: "Advanced techniques for escalating privileges in Windows environments. - TCM",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/3TDZkYDzRxaZGnwCHOvW",
-        link: "https://BrahimSAA.github.io/Tcm_Security_-_Windows_Privilege_Escalation_for_Beginners_2020-5/",
-        category: "Windows Security"
-    },
-    {
         title: "ASP.NET",
         description: "A comprehensive guide to securing ASP.NET applications, focusing on common vulnerabilities and mitigations. - YourCompany",
         image: "https://eluminoustechnologies.com/blog/wp-content/uploads/2023/10/1-4.jpg",  // Replace with actual image URL
@@ -244,13 +238,6 @@ const courses = [
         image: "https://djgeqya1wekbj.cloudfront.net/product-images/600-600/Cisco-CCNA-200-301-Online-1200x600.jpg",  // Replace with another image URL if preferred
         link: "https://brahimsaa.github.io/CCNA",  // Replace with actual link or your own content
         category: "Networking"
-    },
-    {
-       title: "C# for Hackers",
-       description: "A specialized guide covering C# programming techniques, security concepts, and penetration testing applications for cybersecurity professionals. - YourCompany",
-       image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg",
-       link: "https://BrahimSAA.github.io/TCM_Security_-_C-_101_for_Hackers/",
-       category: "Cybersecurity"
     }
 
 ];
