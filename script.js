@@ -328,6 +328,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/5474035/pexels-photo-5474035.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/Web_Security_&_Bug_Bounty_Learn_Penetration_Testing",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Windows Server 2022 Administration",
+        "description": "This course provides in-depth knowledge and practical skills for administering and managing Windows Server 2022 environments, covering topics from installation and configuration to security and troubleshooting. Students will learn how to effectively manage server roles, features, and services to ensure optimal performance and security.",
+        "image": "https://images.pexels.com/photos/5073493/pexels-photo-5073493.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/Windows_Server_2022_Administration",
+        "category": "cybersecurity"
     }
 
 ];
