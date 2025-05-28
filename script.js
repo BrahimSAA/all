@@ -216,6 +216,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/5073493/pexels-photo-5073493.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/Windows_Server_2022_Administration",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Build a Real-world App with ASP.NET Core and Angular 2 (4)",
+        "description": "Learn to develop a practical, real-world application using ASP.NET Core for the backend and Angular (version 2 or 4) for the frontend, integrating these technologies to create a complete solution. This course guides you through building a functional app, covering essential concepts and best practices for full-stack web development.",
+        "image": "https://images.pexels.com/photos/26442686/pexels-photo-26442686.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/Build_a_Real-world_App_with_ASP.NET_Core_and_Angular_2_(4)",
+        "category": "web-development"
     }
 
 ];
