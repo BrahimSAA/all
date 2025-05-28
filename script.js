@@ -139,6 +139,13 @@ const courses = [
         "image": "https://www.uptycs.com/hs-fs/hubfs/mastering-kubernetes-container-security.jpg?width=352&name=mastering-kubernetes-container-security.jpg",
         "link": "https://BrahimSAA.github.io/Mastering_Kubernetes",
         "category": "programming"
+    },
+    {
+        "title": "AWS Certified Solutions Architect",
+        "description": "This course prepares individuals to design and implement robust, scalable, and cost-effective solutions on the Amazon Web Services (AWS) platform, validating their expertise in cloud architecture.",
+        "image": "https://img-c.udemycdn.com/course/240x135/5914092_588d_2.jpg",
+        "link": "https://BrahimSAA.github.io/AWS_Certified_Solutions_Architect",
+        "category": "design"
     }
 
 ];
