@@ -265,6 +265,13 @@ const courses = [
         "image": "https://www.cybersecurity-insiders.com/wp-content/uploads/2022/10/SOC-101.jpg",
         "link": "https://BrahimSAA.github.io/AZ-900_Microsoft_Azure_Fundamentals",
         "category": "cloud-computing"
+    },
+    {
+        "title": "Windows Server 2022 Administration",
+        "description": "This course covers the essential skills and knowledge required to administer Windows Server 2022, including installation, configuration, and maintenance. Students will learn to manage users, security, storage, and networking components within a Windows Server environment.",
+        "image": "https://images.unsplash.com/photo-1555949963-aa79dcee981c?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/Windows_Server_2022_Administration",
+        "category": "cybersecurity"
     }
 
 ];
