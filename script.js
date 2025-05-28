@@ -113,13 +113,6 @@ const courses = [
         "category": "Cybersecurity"
     },
     {
-        title: "CCNA & Networking Fundamentals",
-        description: "An in-depth resource covering core networking concepts, protocols, and hands-on configurations to help you prepare for the CCNA certification. - YourCompany",
-        image: "https://djgeqya1wekbj.cloudfront.net/product-images/600-600/Cisco-CCNA-200-301-Online-1200x600.jpg",  // Replace with another image URL if preferred
-        link: "https://brahimsaa.github.io/CCNA",  // Replace with actual link or your own content
-        category: "Networking"
-    },
-    {
         "title": "Advanced Databases",
         "description": "This course delves into advanced topics in database management systems, including query optimization, transaction processing, NoSQL databases, and distributed database systems. Students will gain practical experience in designing, implementing, and managing complex database solutions.",
         "image": "https://images.pexels.com/photos/32232401/pexels-photo-32232401.jpeg?w=705&h=400&fit=crop",
