@@ -258,6 +258,13 @@ const courses = [
         "image": "https://images.unsplash.com/photo-1515879218367-8466d51068e4?w=705&h=400",
         "link": "https://BrahimSAA.github.io/The_Complete_ASP-NET_MVC_5_Course",
         "category": "web-development"
+    },
+    {
+        "title": "AZ-900 Microsoft Azure Fundamentals",
+        "description": "This course covers fundamental concepts of cloud computing and provides an overview of Microsoft Azure services, enabling learners to understand Azure's capabilities and how to apply them.",
+        "image": "https://images.unsplash.com/photo-1518770660439-4640c5697cdb?w=705&h=400",
+        "link": "https://BrahimSAA.github.io/AZ-900_Microsoft_Azure_Fundamentals",
+        "category": "cloud-computing"
     }
 
 ];
