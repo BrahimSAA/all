@@ -244,6 +244,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/32232401/pexels-photo-32232401.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/Advanced_Databases",
         "category": "data-science"
+    },
+    {
+        "title": "Java Essentials",
+        "description": "This course covers the fundamental concepts and syntax of the Java programming language, enabling students to write and execute basic Java applications. It introduces object-oriented programming principles and essential Java libraries.",
+        "image": "https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/Java_Essentials",
+        "category": "programming"
     }
 
 ];
