@@ -262,7 +262,7 @@ const courses = [
     {
         "title": "AZ-900 Microsoft Azure Fundamentals",
         "description": "This course covers fundamental concepts of cloud computing and provides an overview of Microsoft Azure services, enabling learners to understand Azure's capabilities and how to apply them.",
-        "image": "https://images.unsplash.com/photo-1518770660439-4640c5697cdb?w=705&h=400",
+        "image": "https://www.cybersecurity-insiders.com/wp-content/uploads/2022/10/SOC-101.jpg",
         "link": "https://BrahimSAA.github.io/AZ-900_Microsoft_Azure_Fundamentals",
         "category": "cloud-computing"
     }
