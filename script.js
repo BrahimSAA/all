@@ -237,6 +237,13 @@ const courses = [
         image: "https://djgeqya1wekbj.cloudfront.net/product-images/600-600/Cisco-CCNA-200-301-Online-1200x600.jpg",  // Replace with another image URL if preferred
         link: "https://brahimsaa.github.io/CCNA",  // Replace with actual link or your own content
         category: "Networking"
+    },
+    {
+        "title": "test",
+        "description": "test Description",
+        "image": "image.jpg",
+        "link": "test,com",
+        "category": "category"
     }
 
 ];
