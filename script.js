@@ -202,6 +202,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/5730026_f14f_6.jpg",
         "link": "https://BrahimSAA.github.io/The_Ultimate_Docker_Course",
         "category": "programming"
+    },
+    {
+        "title": "The Ultimate JavaScript Series",
+        "description": "A complete journey through JavaScript, covering everything from the fundamentals to advanced concepts and modern frameworks. Master the language and build robust web applications.",
+        "image": "https://i.ytimg.com/vi/8w_oH58AvoA/mqdefault.jpg",
+        "link": "https://BrahimSAA.github.io/The_Ultimate_JavaScript_Series",
+        "category": "programming"
     }
 
 ];
