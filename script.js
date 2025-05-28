@@ -251,6 +251,13 @@ const courses = [
         "image": "https://images.unsplash.com/photo-1519389950473-47a0f982cd5a?w=705&h=400",
         "link": "https://BrahimSAA.github.io/The_Ultimate_JavaScript_Series",
         "category": "programming"
+    },
+    {
+        "title": "The Complete ASP.NET MVC 5 Course",
+        "description": "Master ASP.NET MVC 5 from scratch with this comprehensive course. Build dynamic, data-driven web applications using the Model-View-Controller architecture.",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d51068e4?w=705&h=400",
+        "link": "https://BrahimSAA.github.io/The_Complete_ASP-NET_MVC_5_Course",
+        "category": "web-development"
     }
 
 ];
