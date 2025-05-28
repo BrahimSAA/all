@@ -240,13 +240,6 @@ const courses = [
     },
     {
         "title": "The Ultimate Docker Course",
-        "description": "Master Docker from beginner to advanced, learning to containerize, deploy, and manage applications efficiently. This course provides hands-on experience with Docker, Docker Compose, and Docker Swarm.",
-        "image": "https://images.unsplash.com/photo-1518770660439-464c4c6425fe?w=705&h=400",
-        "link": "https://BrahimSAA.github.io/The_Ultimate_Docker_Course",
-        "category": "programming"
-    },
-    {
-        "title": "The Ultimate Docker Course",
         "description": "Master Docker from beginner to advanced! Learn to containerize applications, build Dockerfiles, orchestrate with Docker Compose, and deploy to production.",
         "image": "https://images.unsplash.com/photo-1517694712202-14f9e314b77b?w=705&h=400",
         "link": "https://BrahimSAA.github.io/The_Ultimate_Docker_Course",
