@@ -111,6 +111,13 @@ const courses = [
         "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg",
         "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers/",
         "category": "Cybersecurity"
+    },
+    {
+        "title": "AWS Certified Cloud Practitioner",
+        "description": "This course provides a foundational understanding of AWS cloud concepts, services, and terminology, preparing individuals for the AWS Certified Cloud Practitioner exam. It covers core AWS services, security best practices, pricing, and support.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2020/11/10/AWSCloudPractitionerEssentialsBlog_300x150.png",
+        "link": "https://BrahimSAA.github.io/AWS_Certified_Cloud_Practitioner",
+        "category": "business"
     }
 
 ];
