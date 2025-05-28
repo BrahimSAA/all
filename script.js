@@ -251,6 +251,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/4709285/pexels-photo-4709285.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/Java_Essentials",
         "category": "programming"
+    },
+    {
+        "title": "Mastering Kubernetes",
+        "description": "This course provides a deep dive into Kubernetes, covering its core concepts, architecture, and advanced features for orchestrating containerized applications at scale. Students will learn to deploy, manage, and scale applications effectively using Kubernetes.",
+        "image": "https://images.pexels.com/photos/32213227/pexels-photo-32213227.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/Mastering_Kubernetes",
+        "category": "programming"
     }
 
 ];
