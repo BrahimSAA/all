@@ -265,6 +265,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/32268496/pexels-photo-32268496.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/AWS_Certified_Cloud_Practitioner",
         "category": "business"
+    },
+    {
+        "title": "AWS Certified Solutions Architect",
+        "description": "This course prepares individuals to design and implement scalable, highly available, and fault-tolerant systems on the AWS platform, covering various AWS services and best practices for building robust solutions. It is designed to help learners pass the AWS Certified Solutions Architect - Associate exam.",
+        "image": "https://images.pexels.com/photos/6568691/pexels-photo-6568691.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/AWS_Certified_Solutions_Architect",
+        "category": "design"
     }
 
 ];
