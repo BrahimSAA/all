@@ -118,6 +118,13 @@ const courses = [
         "image": "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2020/11/10/AWSCloudPractitionerEssentialsBlog_300x150.png",
         "link": "https://BrahimSAA.github.io/AWS_Certified_Cloud_Practitioner",
         "category": "business"
+    },
+    {
+        "title": "Advanced Databases",
+        "description": "This course delves into advanced topics in database management systems, covering areas like query optimization, distributed databases, NoSQL databases, and database security. Students will learn to design, implement, and manage high-performance and scalable database solutions.",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_z9Gtz-GV0uMw0JqKvKIv0DQZPGUPbJM8C3MMHu1aBX9_kU8Z6SZs8s9ddqJ-NcjzdUMeSaPUhfVxWrv-Vl9_rl5yXEOdLtrI8wgTmANoPfnogR_YCqJPO85ne4CwNRSc79x4GFX_3bXQm48c2uYjaSSVjD9cCCVpYdrvILMdZdsxtT_CkvJyvsl9Th_8/s320/ADBMS_GMeet%20Discussion%20Board_Aug%2024%202023.jpg",
+        "link": "https://BrahimSAA.github.io/Advanced_Databases",
+        "category": "data-science"
     }
 
 ];
