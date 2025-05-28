@@ -181,6 +181,13 @@ const courses = [
         "image": "https://images.ctfassets.net/aq13lwl6616q/1nSOi4H0zAGJOhK1VTKWDK/09cbe2160152366ce3f0edfc97e96010/Cybersecurity_-_Academy_Thumbnail_2.png?w=400&h=225&q=50&fm=png&bg=transparent",
         "link": "https://BrahimSAA.github.io/Complete_Cybersecurity_Bootcamp",
         "category": "cybersecurity"
+    },
+    {
+        "title": "CompTIA Security+ Certification Bootcamp",
+        "description": "This intensive bootcamp prepares individuals to pass the CompTIA Security+ certification exam, covering essential security principles and practices. It provides hands-on training and expert instruction to ensure exam readiness.",
+        "image": "https://img-c.udemycdn.com/course/240x135/2616890_6925.jpg",
+        "link": "https://BrahimSAA.github.io/CompTIA_Security+_Certification_Bootcamp",
+        "category": "cybersecurity"
     }
 
 ];
