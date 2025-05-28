@@ -300,6 +300,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/12324202/pexels-photo-12324202.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/CompTIA_Security+_Certification_Bootcamp",
         "category": "cybersecurity"
+    },
+    {
+        "title": "The Complete ASP.NET MVC 5 Course",
+        "description": "Learn to build robust and scalable web applications using ASP.NET MVC 5 framework. This course covers all aspects of MVC 5, from basic concepts to advanced techniques, enabling you to create complete and professional web solutions.",
+        "image": "https://images.pexels.com/photos/5912280/pexels-photo-5912280.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/The_Complete_ASP.NET_MVC_5_Course",
+        "category": "web-development"
     }
 
 ];
