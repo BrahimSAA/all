@@ -307,6 +307,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/5912280/pexels-photo-5912280.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/The_Complete_ASP.NET_MVC_5_Course",
         "category": "web-development"
+    },
+    {
+        "title": "The Ultimate Docker Course",
+        "description": "This course provides a complete understanding of Docker, covering everything from basic concepts to advanced techniques for containerizing applications and managing deployments. Learn to build, ship, and run your applications in isolated containers.",
+        "image": "https://images.pexels.com/photos/20432872/pexels-photo-20432872.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/The_Ultimate_Docker_Course",
+        "category": "programming"
     }
 
 ];
