@@ -244,6 +244,13 @@ const courses = [
         "image": "image.jpg",
         "link": "test,com",
         "category": "category"
+    },
+    {
+        "title": "test",
+        "description": "test Description",
+        "image": "image.jpg",
+        "link": "test,com",
+        "category": "category"
     }
 
 ];
