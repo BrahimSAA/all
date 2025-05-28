@@ -237,6 +237,13 @@ const courses = [
         image: "https://djgeqya1wekbj.cloudfront.net/product-images/600-600/Cisco-CCNA-200-301-Online-1200x600.jpg",  // Replace with another image URL if preferred
         link: "https://brahimsaa.github.io/CCNA",  // Replace with actual link or your own content
         category: "Networking"
+    },
+    {
+        "title": "The Ultimate Docker Course",
+        "description": "Master Docker from beginner to advanced, learning to containerize, deploy, and manage applications efficiently. This course provides hands-on experience with Docker, Docker Compose, and Docker Swarm.",
+        "image": "https://images.unsplash.com/photo-1518770660439-464c4c6425fe?w=705&h=400",
+        "link": "https://BrahimSAA.github.io/The_Ultimate_Docker_Course",
+        "category": "programming"
     }
 
 ];
