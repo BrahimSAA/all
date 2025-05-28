@@ -272,6 +272,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/6568691/pexels-photo-6568691.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/AWS_Certified_Solutions_Architect",
         "category": "design"
+    },
+    {
+        "title": "AZ-900 Microsoft Azure Fundamentals",
+        "description": "This course provides foundational knowledge of cloud concepts and Microsoft Azure services, covering core Azure services, security, privacy, compliance, and trust.",
+        "image": "https://images.pexels.com/photos/32287528/pexels-photo-32287528.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/AZ-900_Microsoft_Azure_Fundamentals",
+        "category": "Cloud"
     }
 
 ];
