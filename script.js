@@ -321,6 +321,13 @@ const courses = [
         "image": "https://images.pexels.com/photos/32213227/pexels-photo-32213227.jpeg?w=705&h=400&fit=crop",
         "link": "https://BrahimSAA.github.io/The_Ultimate_JavaScript_Series",
         "category": "programming"
+    },
+    {
+        "title": "Web Security & Bug Bounty Learn Penetration Testing",
+        "description": "This course provides a thorough understanding of web security principles and equips students with the skills necessary for penetration testing and bug bounty hunting.",
+        "image": "https://images.pexels.com/photos/5474035/pexels-photo-5474035.jpeg?w=705&h=400&fit=crop",
+        "link": "https://BrahimSAA.github.io/Web_Security_&_Bug_Bounty_Learn_Penetration_Testing",
+        "category": "cybersecurity"
     }
 
 ];
