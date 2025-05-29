@@ -104,6 +104,13 @@ const courses = [
         "image": "https://i.ytimg.com/vi/xsRW7_Cbppg/mqdefault.jpg",
         "link": "https://BrahimSAA.github.io/Security_Operations_(SOC)_101",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Windows Privilege Escalation for Beginners",
+        "description": "This course teaches beginners how to identify and exploit common vulnerabilities in Windows systems to gain elevated privileges. It covers fundamental concepts and practical techniques for escalating user rights.",
+        "image": "https://miro.medium.com/v2/resize:fit:708/0*CglysKz-8YDQGuQi",
+        "link": "https://BrahimSAA.github.io/Windows_Privilege_Escalation_for_Beginners",
+        "category": "cybersecurity"
     }
 
 ];
