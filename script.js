@@ -1,5 +1,12 @@
 // Course data
 const courses = [
+    {
+        "title": "C sharp 101 for Hackers",
+        "description": "This course provides a foundational understanding of C# for security professionals, covering syntax, data structures, and common programming patterns relevant to vulnerability analysis and exploit development. It teaches how to leverage C# for building custom security tools and understanding Windows-based applications.",
+        "image": "https://coinedition.com/wp-content/uploads/2025/05/What-Does-the-CETUS-Hack-Mean-for-DeFi-Security-on-SUI-355x200.jpg",
+        "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers",
+        "category": "cybersecurity"
+    }
 
 ];
 
