@@ -139,6 +139,13 @@ const courses = [
         "image": "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2020/11/10/AWSCloudPractitionerEssentialsBlog_300x150.png",
         "link": "https://BrahimSAA.github.io/AWS_Certified_Cloud_Practitioner",
         "category": "business"
+    },
+    {
+        "title": "AWS Certified Solutions Architect",
+        "description": "This course prepares individuals to design and deploy scalable, highly available, and fault-tolerant systems on the AWS cloud platform, covering key AWS services and architectural best practices. It validates expertise in architecting and deploying secure and robust applications on AWS.",
+        "image": "https://img-c.udemycdn.com/course/240x135/5914092_588d_2.jpg",
+        "link": "https://BrahimSAA.github.io/AWS_Certified_Solutions_Architect",
+        "category": "cloud"
     }
 
 ];
