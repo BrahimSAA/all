@@ -83,6 +83,13 @@ const courses = [
         "image": "https://blog.invid.eu/wp-content/uploads/2024/06/image.png",
         "link": "https://BrahimSAA.github.io/Practical_Web_Hacking",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Python 101 for Hackers",
+        "description": "This course provides a foundational understanding of Python programming, tailored for individuals interested in cybersecurity and penetration testing. Students will learn essential Python syntax and concepts to automate tasks, analyze data, and develop basic hacking tools.",
+        "image": "https://img-c.udemycdn.com/course/240x135/4161452_aaf3_4.jpg",
+        "link": "https://BrahimSAA.github.io/Python_101_for_Hackers",
+        "category": "cybersecurity"
     }
 
 ];
