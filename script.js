@@ -146,6 +146,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/5914092_588d_2.jpg",
         "link": "https://BrahimSAA.github.io/AWS_Certified_Solutions_Architect",
         "category": "cloud"
+    },
+    {
+        "title": "AZ-900 Microsoft Azure Fundamentals",
+        "description": "This course provides foundational knowledge of cloud concepts and Azure services, covering cloud computing principles and the core Azure offerings. It is designed for individuals seeking to understand the basics of Azure and cloud technology.",
+        "image": "https://img-c.udemycdn.com/course/240x135/3140524_2f2f_8.jpg",
+        "link": "https://BrahimSAA.github.io/AZ-900_Microsoft_Azure_Fundamentals",
+        "category": "Cloud"
     }
 
 ];
