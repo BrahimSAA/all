@@ -195,6 +195,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/806922_6310_3.jpg",
         "link": "https://BrahimSAA.github.io/The_Complete_ASP.NET_MVC_5_Course",
         "category": "web-development"
+    },
+    {
+        "title": "The Ultimate Docker Course",
+        "description": "Master Docker from beginner to advanced levels, learning to containerize applications, manage Docker images, and deploy containerized solutions efficiently. This course provides a complete understanding of Docker concepts and best practices.",
+        "image": "https://img-c.udemycdn.com/course/240x135/5730026_f14f_6.jpg",
+        "link": "https://BrahimSAA.github.io/The_Ultimate_Docker_Course",
+        "category": "programming"
     }
 
 ];
