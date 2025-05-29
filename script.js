@@ -20,6 +20,13 @@ const courses = [
         "image": "https://www.freyrscada.com/images/iec101-netcore.jpg",
         "link": "https://BrahimSAA.github.io/Linux_101",
         "category": "programming"
+    },
+    {
+        "title": "Linux Privilege Escalation for Beginners",
+        "description": "This course introduces Linux privilege escalation techniques for beginners, covering common vulnerabilities and methods to gain elevated access. Students will learn to identify and exploit misconfigurations to escalate privileges on Linux systems.",
+        "image": "https://i.ytimg.com/vi/ZTnwg3qCdVM/mqdefault.jpg",
+        "link": "https://BrahimSAA.github.io/Linux_Privilege_Escalation_for_Beginners",
+        "category": "cybersecurity"
     }
 
 ];
