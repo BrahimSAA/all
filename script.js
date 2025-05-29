@@ -55,6 +55,13 @@ const courses = [
         "image": "https://blog.invid.eu/wp-content/uploads/2024/06/2024-06-27_14-06.png?w=204",
         "link": "https://BrahimSAA.github.io/Practical_Bug_Bounty",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Practical Ethical Hacking",
+        "description": "This course provides hands-on training in ethical hacking techniques, covering penetration testing, vulnerability assessment, and security auditing methodologies used to identify and mitigate security risks in systems and networks. Students will learn to use industry-standard tools and techniques to simulate real-world attacks, all within legal and ethical boundaries.",
+        "image": "https://img-c.udemycdn.com/course/240x135/2396206_e860_7.jpg",
+        "link": "https://BrahimSAA.github.io/Practical_Ethical_Hacking",
+        "category": "cybersecurity"
     }
 
 ];
