@@ -13,6 +13,13 @@ const courses = [
         "image": "https://i.ytimg.com/vi/otjjPnNFFXo/mqdefault.jpg",
         "link": "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Linux 101",
+        "description": "This course provides a fundamental introduction to the Linux operating system, covering basic concepts, command-line usage, and system administration tasks. It is designed for beginners with little to no prior experience with Linux.",
+        "image": "https://www.freyrscada.com/images/iec101-netcore.jpg",
+        "link": "https://BrahimSAA.github.io/Linux_101",
+        "category": "programming"
     }
 
 ];
