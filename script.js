@@ -6,6 +6,13 @@ const courses = [
         "image": "https://coinedition.com/wp-content/uploads/2025/05/What-Does-the-CETUS-Hack-Mean-for-DeFi-Security-on-SUI-355x200.jpg",
         "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Detection Engineering for Beginners",
+        "description": "This course provides an introduction to the fundamentals of detection engineering, covering the process of identifying and responding to security threats. It will equip beginners with the foundational knowledge to build and maintain effective detection strategies.",
+        "image": "https://i.ytimg.com/vi/otjjPnNFFXo/mqdefault.jpg",
+        "link": "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners",
+        "category": "cybersecurity"
     }
 
 ];
