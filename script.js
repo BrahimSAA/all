@@ -167,6 +167,13 @@ const courses = [
         "image": "https://freecoursesite.com/wp-content/uploads/2018/05/1144726_45a2_2-300x169.jpg",
         "link": "https://BrahimSAA.github.io/Build_a_Real-world_App_with_ASP.NET_Core_and_Angular_2_(4+)",
         "category": "web-development"
+    },
+    {
+        "title": "CCNA Networking  Complete Cisco CCNA 200-301 Prep Course",
+        "description": "A complete preparation course for the Cisco CCNA 200-301 certification exam, covering all networking fundamentals and Cisco technologies. This course provides the knowledge and skills necessary to pass the exam and begin a career in networking.",
+        "image": "https://img-c.udemycdn.com/course/240x135/5623666_17de_5.jpg",
+        "link": "https://BrahimSAA.github.io/CCNA_Networking__Complete_Cisco_CCNA_200-301_Prep_Course",
+        "category": "cybersecurity"
     }
 
 ];
