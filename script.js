@@ -62,6 +62,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/2396206_e860_7.jpg",
         "link": "https://BrahimSAA.github.io/Practical_Ethical_Hacking",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Practical Malware Analysis and Triage",
+        "description": "This course provides hands-on training in the essential techniques for analyzing and triaging malware, focusing on identifying malicious functionality and prioritizing response efforts. Students will learn to dissect malware samples in a practical setting, using industry-standard tools and methodologies.",
+        "image": "https://www.domedion.com/wp-content/uploads/2021/11/Analysis400.png",
+        "link": "https://BrahimSAA.github.io/Practical_Malware_Analysis_and_Triage",
+        "category": "cybersecurity"
     }
 
 ];
