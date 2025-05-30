@@ -223,6 +223,13 @@ const courses = [
         "image": "https://kavoneinstitute.com/wp-content/uploads/2024/07/Windows-Server-2022-Administration.png",
         "link": "https://BrahimSAA.github.io/Windows_Server_2022_Administration",
         "category": "cybersecurity"
+    },
+    {
+        "title": "The Ultimate JavaScript Series",
+        "description": "Master JavaScript from beginner to advanced, building real-world projects and gaining a deep understanding of the language's core concepts. This series equips you with the skills to build dynamic websites, web applications, and more.",
+        "image": "https://i.ytimg.com/vi/8w_oH58AvoA/mqdefault.jpg",
+        "link": "https://BrahimSAA.github.io/The_Ultimate_JavaScript_Series",
+        "category": "programming"
     }
 
 ];
