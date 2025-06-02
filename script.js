@@ -2,13 +2,6 @@
 const courses = [
     {
         "title": "C sharp 101 for Hackers",
-        "description": "This course teaches the fundamentals of C# programming with a focus on its applications in penetration testing and security tool development. It covers C# syntax, data structures, and object-oriented programming principles, all within the context of practical hacking scenarios.",
-        "image": "https://business.sharpusa.com/Portals/0/EasyDNNNews/816/images/img-Security-BP-tbn-350-180-c-L-97.JPG",
-        "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers/",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "C sharp 101 for Hackers",
         "description": "This course teaches the fundamentals of C# programming with a focus on its applications in penetration testing, security auditing, and exploit development. Students will learn to write tools and scripts for offensive and defensive cybersecurity tasks using C# 10.",
         "image": "https://business.sharpusa.com/Portals/0/EasyDNNNews/816/images/img-Security-BP-tbn-350-180-c-L-97.JPG",
         "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers",
@@ -46,7 +39,7 @@ const courses = [
         "title": "Open-Source Intelligence (OSINT) Fundamentals",
         "description": "This course provides a foundational understanding of Open-Source Intelligence (OSINT) principles and techniques, covering methodologies for collecting, analyzing, and disseminating information from publicly available sources.",
         "image": "https://www.meirc.com/assets/images/course-image/course/certificate-in-opensource-intelligence-osint-fundamentals-courses.jpg",
-        "link": "https://BrahimSAA.github.io/Open-Source_Intelligence_(OSINT)_Fundamentals",
+        "link": "https://BrahimSAA.github.io/Open-Source_Intelligence_-OSINT-_Fundamentals",
         "category": "cybersecurity"
     },
     {
@@ -109,7 +102,7 @@ const courses = [
         "title": "Security Operations (SOC) 101",
         "description": "This course provides a foundational understanding of Security Operations Centers (SOCs), covering core concepts, processes, technologies, and roles involved in detecting, analyzing, and responding to cybersecurity incidents. It's an introductory course designed to equip learners with the basics of SOC operations.",
         "image": "https://i.ytimg.com/vi/xsRW7_Cbppg/mqdefault.jpg",
-        "link": "https://BrahimSAA.github.io/Security_Operations_(SOC)_101",
+        "link": "https://BrahimSAA.github.io/Security_Operations_-SOC-_101",
         "category": "cybersecurity"
     },
     {
@@ -172,7 +165,7 @@ const courses = [
         "title": "Build a Real-world App with ASP.NET Core and Angular 2 (4+)",
         "description": "Learn to develop complete, practical web applications using the powerful combination of ASP.NET Core for the backend and Angular (version 4 or later) for the frontend, gaining hands-on experience with real-world development challenges. This course focuses on building a full-stack application from start to finish.",
         "image": "https://freecoursesite.com/wp-content/uploads/2018/05/1144726_45a2_2-300x169.jpg",
-        "link": "https://BrahimSAA.github.io/Build_a_Real-world_App_with_ASP.NET_Core_and_Angular_2_(4+)",
+        "link": "https://BrahimSAA.github.io/Build_a_Real-world_App_with_ASP-NET_Core_and_Angular_2_-4--",
         "category": "web-development"
     },
     {
@@ -193,7 +186,7 @@ const courses = [
         "title": "CompTIA Security+ Certification Bootcamp",
         "description": "This intensive bootcamp prepares students to pass the CompTIA Security+ certification exam, covering essential principles of network security and risk management. Participants will gain hands-on experience in identifying and mitigating security threats.",
         "image": "https://img-c.udemycdn.com/course/240x135/2616890_6925.jpg",
-        "link": "https://BrahimSAA.github.io/CompTIA_Security+_Certification_Bootcamp",
+        "link": "https://BrahimSAA.github.io/CompTIA_Security-_Certification_Bootcamp",
         "category": "cybersecurity"
     },
     {
@@ -214,7 +207,7 @@ const courses = [
         "title": "The Complete ASP.NET MVC 5 Course",
         "description": "Master ASP.NET MVC 5 and build robust, scalable web applications from scratch. This comprehensive course covers everything from the fundamentals to advanced topics, equipping you with the skills to develop professional-grade MVC applications.",
         "image": "https://img-c.udemycdn.com/course/240x135/806922_6310_3.jpg",
-        "link": "https://BrahimSAA.github.io/The_Complete_ASP.NET_MVC_5_Course",
+        "link": "https://BrahimSAA.github.io/The_Complete_ASP-NET_MVC_5_Course",
         "category": "web-development"
     },
     {
@@ -235,7 +228,7 @@ const courses = [
         "title": "Web Security & Bug Bounty Learn Penetration Testing",
         "description": "This course teaches web security principles and penetration testing techniques to find and exploit vulnerabilities for bug bounty programs. Learn practical skills to secure web applications and earn rewards by identifying security flaws.",
         "image": "https://img-c.udemycdn.com/course/240x135/3985968_eafc_4.jpg",
-        "link": "https://BrahimSAA.github.io/Web_Security_&_Bug_Bounty_Learn_Penetration_Testing",
+        "link": "https://BrahimSAA.github.io/Web_Security_-_Bug_Bounty_Learn_Penetration_Testing",
         "category": "cybersecurity"
     },
     {
