@@ -139,6 +139,13 @@ const courses = [
         "image": "https://www.uptycs.com/hs-fs/hubfs/mastering-kubernetes-container-security.jpg?width=352&name=mastering-kubernetes-container-security.jpg",
         "link": "https://BrahimSAA.github.io/Mastering_Kubernetes",
         "category": "programming"
+    },
+    {
+        "title": "AWS Certified Cloud Practitioner",
+        "description": "This course provides a foundational understanding of AWS Cloud concepts, services, security, architecture, and pricing, preparing individuals for the AWS Certified Cloud Practitioner exam. It covers cloud concepts, AWS services, security, architecture, and pricing.",
+        "image": "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2020/11/10/AWSCloudPractitionerEssentialsBlog_300x150.png",
+        "link": "https://BrahimSAA.github.io/AWS_Certified_Cloud_Practitioner",
+        "category": "business"
     }
 
 ];
