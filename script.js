@@ -90,6 +90,13 @@ const courses = [
         "image": "https://blog.invid.eu/wp-content/uploads/2024/06/image.png",
         "link": "https://BrahimSAA.github.io/Practical_Web_Hacking",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Python 101 for Hackers",
+        "description": "Learn the fundamentals of Python programming, focusing on its application in cybersecurity and ethical hacking. This course provides a foundation for automating tasks, scripting exploits, and analyzing security data.",
+        "image": "https://img-c.udemycdn.com/course/240x135/4161452_aaf3_4.jpg",
+        "link": "https://BrahimSAA.github.io/Python_101_for_Hackers",
+        "category": "cybersecurity"
     }
 
 ];
