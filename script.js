@@ -48,6 +48,13 @@ const courses = [
         "image": "https://www.meirc.com/assets/images/course-image/course/certificate-in-opensource-intelligence-osint-fundamentals-courses.jpg",
         "link": "https://BrahimSAA.github.io/Open-Source_Intelligence_(OSINT)_Fundamentals",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Practical API Hacking",
+        "description": "This course provides hands-on training on identifying and exploiting vulnerabilities in APIs, enabling participants to secure and defend against API-related attacks. It covers practical techniques for testing, analyzing, and compromising real-world APIs.",
+        "image": "https://img-c.udemycdn.com/course/240x135/6482585_f8ec_7.jpg",
+        "link": "https://BrahimSAA.github.io/Practical_API_Hacking",
+        "category": "cybersecurity"
     }
 
 ];
