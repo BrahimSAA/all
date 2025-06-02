@@ -188,6 +188,13 @@ const courses = [
         "image": "https://www.itcareerfinder.com/images/best-cybersecurity-bootcamps-online-2024.gif",
         "link": "https://BrahimSAA.github.io/Complete_Cybersecurity_Bootcamp",
         "category": "cybersecurity"
+    },
+    {
+        "title": "CompTIA Security+ Certification Bootcamp",
+        "description": "This intensive bootcamp prepares students to pass the CompTIA Security+ certification exam, covering essential principles of network security and risk management. Participants will gain hands-on experience in identifying and mitigating security threats.",
+        "image": "https://img-c.udemycdn.com/course/240x135/2616890_6925.jpg",
+        "link": "https://BrahimSAA.github.io/CompTIA_Security+_Certification_Bootcamp",
+        "category": "cybersecurity"
     }
 
 ];
