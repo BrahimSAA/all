@@ -76,6 +76,13 @@ const courses = [
         "image": "https://www.domedion.com/wp-content/uploads/2021/11/Analysis400.png",
         "link": "https://BrahimSAA.github.io/Practical_Malware_Analysis_and_Triage",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Practical Phishing Campaigns",
+        "description": "This course teaches the practical aspects of designing, launching, and analyzing phishing campaigns, covering techniques, tools, and ethical considerations. Students will learn how to simulate real-world phishing attacks to identify vulnerabilities and improve security awareness.",
+        "image": "https://blog.invid.eu/wp-content/uploads/2024/06/2024-06-27_20-42.png?w=329",
+        "link": "https://BrahimSAA.github.io/Practical_Phishing_Campaigns",
+        "category": "cybersecurity"
     }
 
 ];
