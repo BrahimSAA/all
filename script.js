@@ -202,6 +202,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/6032754_930e.jpg",
         "link": "https://BrahimSAA.github.io/Getting_Started_with_Ansible_Automation_Made_Easy",
         "category": "programming"
+    },
+    {
+        "title": "Master Python Hacking plus then 15 Projects from Beginner to Expert",
+        "description": "This course provides a complete path to Python hacking mastery, starting from beginner level and progressing through 15 projects to expert level proficiency. You will learn ethical hacking techniques and develop practical skills through hands-on project experience.",
+        "image": "https://img-c.udemycdn.com/course/240x135/6124711_54b8_2.jpg",
+        "link": "https://BrahimSAA.github.io/Master_Python_Hacking_plus_then_15_Projects_from_Beginner_to_Expert",
+        "category": "cybersecurity"
     }
 
 ];
