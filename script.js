@@ -167,6 +167,13 @@ const courses = [
         "image": "https://images.ctfassets.net/aq13lwl6616q/395iMiqbPBUPQGGEluVUXT/ca0636cf2e4f182c5f5821386bcd02ee/Academy_3_Course_Thumbnail_-_Bash_Programming.png?w=400&fm=webp",
         "link": "https://BrahimSAA.github.io/Bash_Scripting_Learn_Shell_Scripting",
         "category": "programming"
+    },
+    {
+        "title": "Build a Real-world App with ASP.NET Core and Angular 2 (4+)",
+        "description": "Learn to develop complete, practical web applications using the powerful combination of ASP.NET Core for the backend and Angular (version 4 or later) for the frontend, gaining hands-on experience with real-world development challenges. This course focuses on building a full-stack application from start to finish.",
+        "image": "https://freecoursesite.com/wp-content/uploads/2018/05/1144726_45a2_2-300x169.jpg",
+        "link": "https://BrahimSAA.github.io/Build_a_Real-world_App_with_ASP.NET_Core_and_Angular_2_(4+)",
+        "category": "web-development"
     }
 
 ];
