@@ -195,6 +195,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/2616890_6925.jpg",
         "link": "https://BrahimSAA.github.io/CompTIA_Security+_Certification_Bootcamp",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Getting Started with Ansible Automation Made Easy",
+        "description": "This course provides a beginner-friendly introduction to Ansible, guiding you through the fundamentals of automating IT tasks with ease. Learn to configure systems, deploy applications, and orchestrate complex workflows using Ansible's simple and powerful automation framework.",
+        "image": "https://img-c.udemycdn.com/course/240x135/6032754_930e.jpg",
+        "link": "https://BrahimSAA.github.io/Getting_Started_with_Ansible_Automation_Made_Easy",
+        "category": "programming"
     }
 
 ];
