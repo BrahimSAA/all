@@ -83,6 +83,13 @@ const courses = [
         "image": "https://blog.invid.eu/wp-content/uploads/2024/06/2024-06-27_20-42.png?w=329",
         "link": "https://BrahimSAA.github.io/Practical_Phishing_Campaigns",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Practical Web Hacking",
+        "description": "This course teaches the practical skills and techniques necessary to identify and exploit vulnerabilities in web applications. It focuses on real-world examples and hands-on exercises to develop a strong understanding of web hacking methodologies.",
+        "image": "https://blog.invid.eu/wp-content/uploads/2024/06/image.png",
+        "link": "https://BrahimSAA.github.io/Practical_Web_Hacking",
+        "category": "cybersecurity"
     }
 
 ];
