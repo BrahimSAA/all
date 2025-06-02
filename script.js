@@ -20,6 +20,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/5450800_e323_2.jpg",
         "link": "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Linux 101",
+        "description": "This introductory course provides a foundational understanding of the Linux operating system, covering basic commands, file system navigation, and user management. Students will learn to interact with the Linux environment and perform common tasks.",
+        "image": "https://www.freyrscada.com/images/iec101-netcore.jpg",
+        "link": "https://BrahimSAA.github.io/Linux_101",
+        "category": "cybersecurity"
     }
 
 ];
