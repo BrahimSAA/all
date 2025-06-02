@@ -237,6 +237,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/3985968_eafc_4.jpg",
         "link": "https://BrahimSAA.github.io/Web_Security_&_Bug_Bounty_Learn_Penetration_Testing",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Windows Server 2022 Administration",
+        "description": "This course provides a comprehensive overview of Windows Server 2022 administration, covering essential skills for managing and maintaining Windows Server environments. Students will learn to configure, deploy, and troubleshoot core services and features.",
+        "image": "https://kavoneinstitute.com/wp-content/uploads/2024/07/Windows-Server-2022-Administration.png",
+        "link": "https://BrahimSAA.github.io/Windows_Server_2022_Administration",
+        "category": "business"
     }
 
 ];
