@@ -160,6 +160,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/3140524_2f2f_8.jpg",
         "link": "https://BrahimSAA.github.io/AZ-900_Microsoft_Azure_Fundamentals",
         "category": "Cloud"
+    },
+    {
+        "title": "Bash Scripting Learn Shell Scripting",
+        "description": "This course provides a comprehensive introduction to Bash scripting, enabling students to automate tasks and manage systems effectively using shell scripting techniques. Students will learn to write powerful and efficient scripts to streamline their workflows.",
+        "image": "https://images.ctfassets.net/aq13lwl6616q/395iMiqbPBUPQGGEluVUXT/ca0636cf2e4f182c5f5821386bcd02ee/Academy_3_Course_Thumbnail_-_Bash_Programming.png?w=400&fm=webp",
+        "link": "https://BrahimSAA.github.io/Bash_Scripting_Learn_Shell_Scripting",
+        "category": "programming"
     }
 
 ];
