@@ -41,6 +41,13 @@ const courses = [
         "image": "https://www.beyondkey.com/blog/wp-content/uploads/2023/06/Best_Practices_to_Protect_Your_Mobile_Application_Penetration_Testing-394x218.jpg",
         "link": "https://BrahimSAA.github.io/Mobile_Application_Penetration_Testing",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Open-Source Intelligence (OSINT) Fundamentals",
+        "description": "This course provides a foundational understanding of Open-Source Intelligence (OSINT) principles and techniques, covering methodologies for collecting, analyzing, and disseminating information from publicly available sources.",
+        "image": "https://www.meirc.com/assets/images/course-image/course/certificate-in-opensource-intelligence-osint-fundamentals-courses.jpg",
+        "link": "https://BrahimSAA.github.io/Open-Source_Intelligence_(OSINT)_Fundamentals",
+        "category": "cybersecurity"
     }
 
 ];
