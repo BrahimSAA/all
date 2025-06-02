@@ -55,6 +55,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/6482585_f8ec_7.jpg",
         "link": "https://BrahimSAA.github.io/Practical_API_Hacking",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Practical Bug Bounty",
+        "description": "This course provides hands-on training in identifying and exploiting vulnerabilities in systems and applications to earn rewards through bug bounty programs. It focuses on practical techniques and real-world scenarios to prepare students for successful bug hunting.",
+        "image": "https://blog.invid.eu/wp-content/uploads/2024/06/2024-06-27_14-06.png?w=204",
+        "link": "https://BrahimSAA.github.io/Practical_Bug_Bounty",
+        "category": "cybersecurity"
     }
 
 ];
