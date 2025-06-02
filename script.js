@@ -6,6 +6,13 @@ const courses = [
         "image": "https://business.sharpusa.com/Portals/0/EasyDNNNews/816/images/img-Security-BP-tbn-350-180-c-L-97.JPG",
         "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers/",
         "category": "cybersecurity"
+    },
+    {
+        "title": "C sharp 101 for Hackers",
+        "description": "This course teaches the fundamentals of C# programming with a focus on its applications in penetration testing, security auditing, and exploit development. Students will learn to write tools and scripts for offensive and defensive cybersecurity tasks using C# 10.",
+        "image": "https://business.sharpusa.com/Portals/0/EasyDNNNews/816/images/img-Security-BP-tbn-350-180-c-L-97.JPG",
+        "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers",
+        "category": "cybersecurity"
     }
 
 ];
