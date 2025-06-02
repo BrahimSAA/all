@@ -181,6 +181,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/5623666_17de_5.jpg",
         "link": "https://BrahimSAA.github.io/CCNA_Networking__Complete_Cisco_CCNA_200-301_Prep_Course",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Complete Cybersecurity Bootcamp",
+        "description": "This course offers a complete and thorough training program covering all essential aspects of cybersecurity, from foundational concepts to advanced techniques. It equips students with the knowledge and skills needed to protect systems and data from cyber threats.",
+        "image": "https://www.itcareerfinder.com/images/best-cybersecurity-bootcamps-online-2024.gif",
+        "link": "https://BrahimSAA.github.io/Complete_Cybersecurity_Bootcamp",
+        "category": "cybersecurity"
     }
 
 ];
