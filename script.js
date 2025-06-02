@@ -230,6 +230,13 @@ const courses = [
         "image": "https://i.ytimg.com/vi/8w_oH58AvoA/mqdefault.jpg",
         "link": "https://BrahimSAA.github.io/The_Ultimate_JavaScript_Series",
         "category": "programming"
+    },
+    {
+        "title": "Web Security & Bug Bounty Learn Penetration Testing",
+        "description": "This course teaches web security principles and penetration testing techniques to find and exploit vulnerabilities for bug bounty programs. Learn practical skills to secure web applications and earn rewards by identifying security flaws.",
+        "image": "https://img-c.udemycdn.com/course/240x135/3985968_eafc_4.jpg",
+        "link": "https://BrahimSAA.github.io/Web_Security_&_Bug_Bounty_Learn_Penetration_Testing",
+        "category": "cybersecurity"
     }
 
 ];
