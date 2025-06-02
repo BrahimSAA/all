@@ -13,6 +13,13 @@ const courses = [
         "image": "https://business.sharpusa.com/Portals/0/EasyDNNNews/816/images/img-Security-BP-tbn-350-180-c-L-97.JPG",
         "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Detection Engineering for Beginners",
+        "description": "This course provides a foundational understanding of detection engineering principles and practices, enabling participants to build and implement effective security detection strategies. It covers essential concepts and techniques for identifying and responding to threats in modern IT environments.",
+        "image": "https://img-c.udemycdn.com/course/240x135/5450800_e323_2.jpg",
+        "link": "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners",
+        "category": "cybersecurity"
     }
 
 ];
