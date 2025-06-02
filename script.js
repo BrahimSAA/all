@@ -34,6 +34,13 @@ const courses = [
         "image": "https://i.ytimg.com/vi/ZTnwg3qCdVM/mqdefault.jpg",
         "link": "https://BrahimSAA.github.io/Linux_Privilege_Escalation_for_Beginners",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Mobile Application Penetration Testing",
+        "description": "This course provides in-depth knowledge and practical skills to identify and exploit vulnerabilities in mobile applications on various platforms. Students will learn techniques for analyzing, reverse engineering, and testing mobile apps to ensure their security.",
+        "image": "https://www.beyondkey.com/blog/wp-content/uploads/2023/06/Best_Practices_to_Protect_Your_Mobile_Application_Penetration_Testing-394x218.jpg",
+        "link": "https://BrahimSAA.github.io/Mobile_Application_Penetration_Testing",
+        "category": "cybersecurity"
     }
 
 ];
