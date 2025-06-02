@@ -104,6 +104,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/4430080_761d.jpg",
         "link": "https://BrahimSAA.github.io/Python_201_For_Hackers",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Security Operations (SOC) 101",
+        "description": "This course provides a foundational understanding of Security Operations Centers (SOCs), covering core concepts, processes, technologies, and roles involved in detecting, analyzing, and responding to cybersecurity incidents. It's an introductory course designed to equip learners with the basics of SOC operations.",
+        "image": "https://i.ytimg.com/vi/xsRW7_Cbppg/mqdefault.jpg",
+        "link": "https://BrahimSAA.github.io/Security_Operations_(SOC)_101",
+        "category": "cybersecurity"
     }
 
 ];
