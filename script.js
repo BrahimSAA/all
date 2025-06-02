@@ -1,12 +1,5 @@
 // Course data
 const courses = [
-    {
-        "title": "C sharp 101 for Hackers",
-        "description": "This course teaches the fundamentals of C# programming with a focus on its applications in cybersecurity and penetration testing, providing hackers with a powerful tool for developing exploits and security utilities.",
-        "image": "https://business.sharpusa.com/Portals/0/EasyDNNNews/816/images/img-Security-BP-tbn-350-180-c-L-97.JPG",
-        "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers",
-        "category": "cybersecurity"
-    }
 
 ];
 
