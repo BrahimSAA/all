@@ -1,116 +1,116 @@
 // Course data
 const courses = [
     {
-        "title": "C sharp 101 for Hackers",
-        "description": "This course teaches the fundamentals of C# programming with a focus on its applications in penetration testing, security auditing, and exploit development. Students will learn to write tools and scripts for offensive and defensive cybersecurity tasks using C# 10.",
-        "image": "https://business.sharpusa.com/Portals/0/EasyDNNNews/816/images/img-Security-BP-tbn-350-180-c-L-97.JPG",
-        "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Detection Engineering for Beginners",
-        "description": "This course provides a foundational understanding of detection engineering principles and practices, enabling participants to build and implement effective security detection strategies. It covers essential concepts and techniques for identifying and responding to threats in modern IT environments.",
-        "image": "https://img-c.udemycdn.com/course/240x135/5450800_e323_2.jpg",
-        "link": "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Linux 101",
-        "description": "This introductory course provides a foundational understanding of the Linux operating system, covering basic commands, file system navigation, and user management. Students will learn to interact with the Linux environment and perform common tasks.",
-        "image": "https://www.freyrscada.com/images/iec101-netcore.jpg",
-        "link": "https://BrahimSAA.github.io/Linux_101",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Linux Privilege Escalation for Beginners",
-        "description": "This course teaches beginners the fundamentals of Linux privilege escalation techniques, providing a hands-on approach to identifying and exploiting common vulnerabilities to gain root access. Learn to elevate your user privileges and secure Linux systems against unauthorized access.",
-        "image": "https://i.ytimg.com/vi/ZTnwg3qCdVM/mqdefault.jpg",
-        "link": "https://BrahimSAA.github.io/Linux_Privilege_Escalation_for_Beginners",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Mobile Application Penetration Testing",
-        "description": "This course provides in-depth knowledge and practical skills to identify and exploit vulnerabilities in mobile applications on various platforms. Students will learn techniques for analyzing, reverse engineering, and testing mobile apps to ensure their security.",
-        "image": "https://www.beyondkey.com/blog/wp-content/uploads/2023/06/Best_Practices_to_Protect_Your_Mobile_Application_Penetration_Testing-394x218.jpg",
-        "link": "https://BrahimSAA.github.io/Mobile_Application_Penetration_Testing",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Open-Source Intelligence (OSINT) Fundamentals",
-        "description": "This course provides a foundational understanding of Open-Source Intelligence (OSINT) principles and techniques, covering methodologies for collecting, analyzing, and disseminating information from publicly available sources.",
-        "image": "https://www.meirc.com/assets/images/course-image/course/certificate-in-opensource-intelligence-osint-fundamentals-courses.jpg",
-        "link": "https://BrahimSAA.github.io/Open-Source_Intelligence_-OSINT-_Fundamentals",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Practical API Hacking",
-        "description": "This course provides hands-on training on identifying and exploiting vulnerabilities in APIs, enabling participants to secure and defend against API-related attacks. It covers practical techniques for testing, analyzing, and compromising real-world APIs.",
-        "image": "https://img-c.udemycdn.com/course/240x135/6482585_f8ec_7.jpg",
-        "link": "https://BrahimSAA.github.io/Practical_API_Hacking",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Practical Bug Bounty",
-        "description": "This course provides hands-on training in identifying and exploiting vulnerabilities in systems and applications to earn rewards through bug bounty programs. It focuses on practical techniques and real-world scenarios to prepare students for successful bug hunting.",
-        "image": "https://blog.invid.eu/wp-content/uploads/2024/06/2024-06-27_14-06.png?w=204",
-        "link": "https://BrahimSAA.github.io/Practical_Bug_Bounty",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Practical Ethical Hacking",
-        "description": "This course provides hands-on training in ethical hacking techniques, equipping students with the practical skills to identify and exploit vulnerabilities in systems and networks for defensive purposes. Students will learn to use penetration testing tools and methodologies in a real-world context.",
-        "image": "https://img-c.udemycdn.com/course/240x135/2396206_e860_7.jpg",
-        "link": "https://BrahimSAA.github.io/Practical_Ethical_Hacking",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Practical Malware Analysis and Triage",
-        "description": "This course provides hands-on training in the essential skills needed to analyze and triage malware samples, enabling rapid identification and understanding of malicious code behavior. Students will learn practical techniques for dissecting malware, determining its impact, and prioritizing incident response efforts.",
-        "image": "https://www.domedion.com/wp-content/uploads/2021/11/Analysis400.png",
-        "link": "https://BrahimSAA.github.io/Practical_Malware_Analysis_and_Triage",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Practical Phishing Campaigns",
-        "description": "This course teaches the practical aspects of designing, launching, and analyzing phishing campaigns, covering techniques, tools, and ethical considerations. Students will learn how to simulate real-world phishing attacks to identify vulnerabilities and improve security awareness.",
-        "image": "https://blog.invid.eu/wp-content/uploads/2024/06/2024-06-27_20-42.png?w=329",
-        "link": "https://BrahimSAA.github.io/Practical_Phishing_Campaigns",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Practical Web Hacking",
-        "description": "This course teaches the practical skills and techniques necessary to identify and exploit vulnerabilities in web applications. It focuses on real-world examples and hands-on exercises to develop a strong understanding of web hacking methodologies.",
-        "image": "https://blog.invid.eu/wp-content/uploads/2024/06/image.png",
-        "link": "https://BrahimSAA.github.io/Practical_Web_Hacking",
+        "title": "Security Operations (SOC) 101",
+        "description": "Learn SOC fundamentals, threat detection, and incident response techniques. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/doDD6MrQgma58qFv0TSP",
+        "link": "https://BrahimSAA.github.io/Security_Operations_-SOC-_101/",
         "category": "cybersecurity"
     },
     {
         "title": "Python 101 for Hackers",
-        "description": "Learn the fundamentals of Python programming, focusing on its application in cybersecurity and ethical hacking. This course provides a foundation for automating tasks, scripting exploits, and analyzing security data.",
-        "image": "https://img-c.udemycdn.com/course/240x135/4161452_aaf3_4.jpg",
-        "link": "https://BrahimSAA.github.io/Python_101_for_Hackers",
-        "category": "cybersecurity"
+        "description": "Beginner-friendly introduction to Python programming fundamentals. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/qT5GRyTSHWEoH1Euq7ym",
+        "link": "https://BrahimSAA.github.io/Python_101_for_Hackers/",
+        "category": "programming"
     },
     {
         "title": "Python 201 For Hackers",
-        "description": "An advanced Python course designed to equip hackers with the skills to leverage Python for penetration testing, exploit development, and security automation. It builds upon foundational Python knowledge to delve into topics like network programming, reverse engineering, and cryptography.",
-        "image": "https://img-c.udemycdn.com/course/240x135/4430080_761d.jpg",
-        "link": "https://BrahimSAA.github.io/Python_201_For_Hackers",
+        "description": "Advanced Python concepts including OOP, decorators, and async programming. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/xUP2OWjTTuG1Pzx8AL8u",
+        "link": "https://BrahimSAA.github.io/Python_201_For_Hackers/",
+        "category": "programming"
+    },
+    {
+        "title": "Practical Malware Analysis and Triage",
+        "description": "Understand malware behavior, reverse engineering, and defense strategies. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/KWZgSZeATJmhuBdIhLGN",
+        "link": "https://BrahimSAA.github.io/Practical_Malware_Analysis_and_Triage/",
         "category": "cybersecurity"
     },
     {
-        "title": "Security Operations (SOC) 101",
-        "description": "This course provides a foundational understanding of Security Operations Centers (SOCs), covering core concepts, processes, technologies, and roles involved in detecting, analyzing, and responding to cybersecurity incidents. It's an introductory course designed to equip learners with the basics of SOC operations.",
-        "image": "https://i.ytimg.com/vi/xsRW7_Cbppg/mqdefault.jpg",
-        "link": "https://BrahimSAA.github.io/Security_Operations_-SOC-_101",
+        "title": "Practical Ethical Hacking",
+        "description": "Master ethical hacking techniques and penetration testing methodologies. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/25Jl6X5mQ6iALUtb931B",
+        "link": "https://BrahimSAA.github.io/Practical_Ethical_Hacking/",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Open-Source Intelligence (OSINT) Fundamentals",
+        "description": "Learn open-source intelligence gathering techniques for investigations. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/cndIXbcWSsXldQrB5jTo",
+        "link": "https://BrahimSAA.github.io/Open-Source_Intelligence_-OSINT-_Fundamentals/",
+        "category": "cybersecurity"
+    },
+    {
+        "title": "Linux 101",
+        "description": "Essential Linux skills for system administration and security professionals. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/znrRDjrwRRykVhFB5Osj",
+        "link": "https://BrahimSAA.github.io/Linux_101/",
+        "category": "systems"
+    },
+    {
+        "title": "Practical API Hacking",
+        "description": "Understand API vulnerabilities and how to secure modern web applications. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/hDCDoCxRSGCa2vLD9UCV",
+        "link": "https://BrahimSAA.github.io/Practical_API_Hacking/",
+        "category": "programming"
+    },
+    {
+        "title": "Detection Engineering for Beginners",
+        "description": "Build effective threat detection systems and security monitoring solutions. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/tS0hJsAARMWznu0NjWsh",
+        "link": "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners/",
+        "category": "Cyber Defense"
+    },
+    {
+        "title": "Linux Privilege Escalation for Beginners",
+        "description": "Master privilege escalation techniques in Linux environments for penetration testing. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/6ZeARBwScaIN1UxGh5Z4",
+        "link": "https://BrahimSAA.github.io/Linux_Privilege_Escalation_for_Beginners/",
+        "category": "Penetration Testing"
+    },
+    {
+        "title": "Mobile Application Penetration Testing",
+        "description": "Comprehensive guide to finding vulnerabilities in Android and iOS applications. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/lfFu7iSIyJwPhrR2yz1w",
+        "link": "https://BrahimSAA.github.io/Mobile_Application_Penetration_Testing/",
+        "category": "Mobile Security"
+    },
+    {
+        "title": "Practical Bug Bounty",
+        "description": "Real-world bug hunting techniques used by professional security researchers. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/pVs4ytz0RiG8bzlwDyox",
+        "link": "https://BrahimSAA.github.io/Practical_Bug_Bounty/",
+        "category": "Ethical Hacking"
+    },
+    {
+        "title": "Practical Phishing Campaigns",
+        "description": "Understand and defend against modern phishing techniques and social engineering. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/vIuC2QSyRNCclJ8oh3aQ",
+        "link": "https://BrahimSAA.github.io/Practical_Phishing_Campaigns/",
+        "category": "Social Engineering"
+    },
+    {
+        "title": "Practical Web Hacking",
+        "description": "Hands-on web application penetration testing and vulnerability discovery. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/9c7K4sUTXOjS0vKWVr7V",
+        "link": "https://BrahimSAA.github.io/Practical_Web_Hacking/",
+        "category": "Web Security"
     },
     {
         "title": "Windows Privilege Escalation for Beginners",
-        "description": "This course provides a foundational understanding of Windows privilege escalation techniques, enabling beginners to identify and exploit vulnerabilities to gain higher-level access. It covers essential concepts and practical methods for escalating privileges on Windows systems.",
-        "image": "https://i.ytimg.com/vi/aD_KlzVK834/mqdefault.jpg",
-        "link": "https://BrahimSAA.github.io/Windows_Privilege_Escalation_for_Beginners",
-        "category": "cybersecurity"
+        "description": "Advanced techniques for escalating privileges in Windows environments. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/3TDZkYDzRxaZGnwCHOvW",
+        "link": "https://BrahimSAA.github.io/Windows_Privilege_Escalation_for_Beginners/",
+        "category": "Windows Security"
+    },
+    {
+        "title": "C# 101 for Hackers",
+        "description": "A specialized guide covering C# programming techniques, security concepts, and penetration testing applications for cybersecurity professionals. - TCM",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg",
+        "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers/",
+        "category": "Cybersecurity"
     },
     {
         "title": "Advanced Databases",
