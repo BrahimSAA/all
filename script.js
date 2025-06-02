@@ -97,6 +97,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/4161452_aaf3_4.jpg",
         "link": "https://BrahimSAA.github.io/Python_101_for_Hackers",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Python 201 For Hackers",
+        "description": "An advanced Python course designed to equip hackers with the skills to leverage Python for penetration testing, exploit development, and security automation. It builds upon foundational Python knowledge to delve into topics like network programming, reverse engineering, and cryptography.",
+        "image": "https://img-c.udemycdn.com/course/240x135/4430080_761d.jpg",
+        "link": "https://BrahimSAA.github.io/Python_201_For_Hackers",
+        "category": "cybersecurity"
     }
 
 ];
