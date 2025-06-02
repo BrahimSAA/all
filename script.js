@@ -118,6 +118,13 @@ const courses = [
         "image": "https://i.ytimg.com/vi/aD_KlzVK834/mqdefault.jpg",
         "link": "https://BrahimSAA.github.io/Windows_Privilege_Escalation_for_Beginners",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Advanced Databases",
+        "description": "This course delves into the theoretical foundations and practical applications of advanced database concepts, including distributed databases, NoSQL databases, and advanced query optimization techniques. Students will learn to design, implement, and manage complex database systems for high-performance and scalability.",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_z9Gtz-GV0uMw0JqKvKIv0DQZPGUPbJM8C3MMHu1aBX9_kU8Z6SZs8s9ddqJ-NcjzdUMeSaPUhfVxWrv-Vl9_rl5yXEOdLtrI8wgTmANoPfnogR_YCqJPO85ne4CwNRSc79x4GFX_3bXQm48c2uYjaSSVjD9cCCVpYdrvILMdZdsxtT_CkvJyvsl9Th_8/s320/ADBMS_GMeet%20Discussion%20Board_Aug%2024%202023.jpg",
+        "link": "https://BrahimSAA.github.io/Advanced_Databases",
+        "category": "data-science"
     }
 
 ];
