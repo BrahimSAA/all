@@ -240,8 +240,8 @@ const courses = [
     },
     {
         "title": "GRC Analyst Master Class",
-        "description": "Become a master of Governance, Risk, and Compliance (GRC) analysis, learning to assess and manage organizational risks effectively. This course provides advanced techniques and practical skills for GRC professionals.",
-        "image": "https://i.ytimg.com/vi/dyTIc0aZtmI/mqdefault.jpg",
+        "description": "Become a master of Governance, Risk, and Compliance (GRC) analysis, learning to assess and manage organizational risks effectively.",
+        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://uploads.teachablecdn.com/attachments/2fdqCoajQ6qU8syJO2yO_grc-new-2.png",
         "link": "https://BrahimSAA.github.io/GRC_Analyst_Master_Class",
         "category": "business"
     }
