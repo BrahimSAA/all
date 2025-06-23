@@ -237,6 +237,13 @@ const courses = [
       "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_z9Gtz-GV0uMw0JqKvKIv0DQZPGUPbJM8C3MMHu1aBX9_kU8Z6SZs8s9ddqJ-NcjzdUMeSaPUhfVxWrv-Vl9_rl5yXEOdLtrI8wgTmANoPfnogR_YCqJPO85ne4CwNRSc79x4GFX_3bXQm48c2uYjaSSVjD9cCCVpYdrvILMdZdsxtT_CkvJyvsl9Th_8/s320/ADBMS_GMeet%20Discussion%20Board_Aug%2024%202023.jpg",
       "link": "https://BrahimSAA.github.io/Advanced_Databases",
       "category": "data-science"
+    },
+    {
+        "title": "GRC Analyst Master Class",
+        "description": "Become a master of Governance, Risk, and Compliance (GRC) analysis, learning to assess and manage organizational risks effectively. This course provides advanced techniques and practical skills for GRC professionals.",
+        "image": "https://i.ytimg.com/vi/dyTIc0aZtmI/mqdefault.jpg",
+        "link": "https://BrahimSAA.github.io/GRC_Analyst_Master_Class",
+        "category": "business"
     }
 
 ];
