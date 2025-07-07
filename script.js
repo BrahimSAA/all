@@ -244,6 +244,13 @@ const courses = [
         "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://uploads.teachablecdn.com/attachments/2fdqCoajQ6qU8syJO2yO_grc-new-2.png",
         "link": "https://BrahimSAA.github.io/GRC_Analyst_Master_Class",
         "category": "business"
+    },
+    {
+        "title": "Node.js, Express, MongoDB",
+        "description": "Learn full-stack web development using Node.js for the backend, Express.js as a framework, and MongoDB as the database to build dynamic and scalable applications.",
+        "image": "https://miro.medium.com/v2/resize:fit:365/1*Jr3NFSKTfQWRUyjblBSKeg.png",
+        "link": "https://BrahimSAA.github.io/Node.js,_Express,_MongoDB",
+        "category": "web-development"
     }
 
 ];
