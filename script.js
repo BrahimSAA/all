@@ -258,6 +258,13 @@ const courses = [
         "image": "https://www.clariontech.com/hubfs/Blog-images/BlogImage-97.jpg",
         "link": "https://BrahimSAA.github.io/Redux",
         "category": "web-development"
+    },
+    {
+        "title": "Programming with AI",
+        "description": "This course teaches students how to integrate artificial intelligence techniques and tools into software development, covering topics like AI-powered automation, intelligent agents, and machine learning integration. It equips learners with the skills to build innovative applications that leverage the power of AI.",
+        "image": "https://venturebeat.com/wp-content/uploads/2023/08/annevb_the_end_of_programming._colorful_futuristic_tech_3d6db463-375e-4d84-9324-2b045c20313a.png?w=400",
+        "link": "https://BrahimSAA.github.io/Programming_with_AI",
+        "category": "programming"
     }
 
 ];
