@@ -251,6 +251,13 @@ const courses = [
         "image": "https://miro.medium.com/v2/resize:fit:365/1*Jr3NFSKTfQWRUyjblBSKeg.png",
         "link": "https://BrahimSAA.github.io/Node-js-_Express-_MongoDB",
         "category": "web-development"
+    },
+    {
+        "title": "Redux",
+        "description": "This course provides a thorough understanding of Redux, a predictable state container for JavaScript apps, helping you manage application state effectively. You will learn how to use Redux with React and other frameworks to build scalable and maintainable applications.",
+        "image": "https://www.clariontech.com/hubfs/Blog-images/BlogImage-97.jpg",
+        "link": "https://BrahimSAA.github.io/Redux",
+        "category": "web-development"
     }
 
 ];
