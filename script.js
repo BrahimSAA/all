@@ -284,7 +284,7 @@ const courses = [
         "title": "The Modern Full Stack Next.js Course",
         "description": "Learn to build modern, full-stack web applications using Next.js, covering everything from front-end development to back-end functionality and deployment. This course will equip you with the skills to create robust and scalable web solutions.",
         "image": "https://img-c.udemycdn.com/course/240x135/6223471_2725.jpg",
-        "link": "https://BrahimSAA.github.io/The_Modern_Full_Stack_Next.js_Course",
+        "link": "https://BrahimSAA.github.io/The_Modern_Full_Stack_Next-js_Course",
         "category": "web-development"
     }
 
