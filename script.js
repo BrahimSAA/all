@@ -272,6 +272,13 @@ const courses = [
         "image": "https://images.ctfassets.net/aq13lwl6616q/Lxp7NOjFmtq9IlqyBKgPt/b868427a9f388c8105f051bf1c6062f3/Linux_sysadmin_DevOps_Series.png?w=400&h=225&q=50&fm=png&bg=transparent",
         "link": "https://BrahimSAA.github.io/DevOps_Bootcamp_Learn_Linux_-_Become_a_Linux_Sysadmin",
         "category": "DevOps"
+    },
+    {
+        "title": "NGINX Fundamentals High Performance Servers from Scratch",
+        "description": "Learn the essentials of NGINX, starting from basic setup to building high-performance servers from the ground up. This course covers configuration, optimization, and best practices for deploying robust web servers using NGINX.",
+        "image": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/9a4da97c3b99.jpg",
+        "link": "https://BrahimSAA.github.io/NGINX_Fundamentals_High_Performance_Servers_from_Scratch",
+        "category": "web-development"
     }
 
 ];
