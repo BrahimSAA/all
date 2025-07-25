@@ -286,6 +286,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/6223471_2725.jpg",
         "link": "https://BrahimSAA.github.io/The_Modern_Full_Stack_Next-js_Course",
         "category": "web-development"
+    },
+    {
+        "title": "The Modern Full Stack Next.js Course",
+        "description": "This course provides a complete guide to building modern web applications using Next.js, covering both front-end and back-end development techniques. You will learn to create full-stack applications with Next.js.",
+        "image": "https://img-c.udemycdn.com/course/240x135/6223471_2725.jpg",
+        "link": "https://BrahimSAA.github.io/The_Modern_Full_Stack_Next.js_Course",
+        "category": "web-development"
     }
 
 ];
