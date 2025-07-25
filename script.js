@@ -279,6 +279,13 @@ const courses = [
         "image": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/9a4da97c3b99.jpg",
         "link": "https://BrahimSAA.github.io/NGINX_Fundamentals_High_Performance_Servers_from_Scratch",
         "category": "web-development"
+    },
+    {
+        "title": "The Modern Full Stack Next.js Course",
+        "description": "Learn to build modern, full-stack web applications using Next.js, covering everything from front-end development to back-end functionality and deployment. This course will equip you with the skills to create robust and scalable web solutions.",
+        "image": "https://img-c.udemycdn.com/course/240x135/6223471_2725.jpg",
+        "link": "https://BrahimSAA.github.io/The_Modern_Full_Stack_Next.js_Course",
+        "category": "web-development"
     }
 
 ];
