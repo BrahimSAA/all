@@ -279,13 +279,6 @@ const courses = [
         "image": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/9a4da97c3b99.jpg",
         "link": "https://BrahimSAA.github.io/NGINX_Fundamentals_High_Performance_Servers_from_Scratch",
         "category": "web-development"
-    },
-    {
-        "title": "Next.js Simplified",
-        "description": "Learn Next.js quickly and easily with this simplified course, covering the essential concepts for building modern web applications. Master server-side rendering, routing, and data fetching with practical examples.",
-        "image": "https://i.ytimg.com/vi/nHnw3pusFXw/mqdefault.jpg",
-        "link": "https://BrahimSAA.github.io/Next-js_Simplified/",
-        "category": "web-development"
     }
 
 ];
