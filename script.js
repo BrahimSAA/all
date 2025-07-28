@@ -293,13 +293,6 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
         "link": "https://BrahimSAA.github.io/The_Complete_JavaScript_Course_2025_From_Zero_to_Expert",
         "category": "programming"
-    },
-    {
-        "title": "The Complete JavaScript Course 2025 From Zero to Expert",
-        "description": "This course provides a complete journey into JavaScript, starting from the fundamentals and progressing to advanced topics to transform you into a JavaScript expert by 2025. Learn JavaScript thoroughly, from basic syntax to advanced features, and become a highly skilled JavaScript developer.",
-        "image": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
-        "link": "https://BrahimSAA.github.io/The_Complete_JavaScript_Course_2025_From_Zero_to_Expert/",
-        "category": "programming"
     }
 
 ];
