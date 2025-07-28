@@ -289,13 +289,6 @@ const courses = [
     },
     {
         "title": "The Complete JavaScript Course 2025 From Zero to Expert",
-        "description": "A comprehensive JavaScript course designed to take you from a complete beginner to an expert-level developer by 2025, covering all the essential concepts and advanced techniques. Master JavaScript programming and build real-world projects.",
-        "image": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
-        "link": "https://BrahimSAA.github.io/The_Complete_JavaScript_Course_2025_From_Zero_to_Expert",
-        "category": "programming"
-    },
-    {
-        "title": "The Complete JavaScript Course 2025 From Zero to Expert",
         "description": "Master JavaScript from the ground up, becoming a proficient and highly sought-after JavaScript developer by 2025 with this comprehensive course. Learn everything from basic syntax to advanced concepts and real-world projects.",
         "image": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
         "link": "https://BrahimSAA.github.io/The_Complete_JavaScript_Course_2025_From_Zero_to_Expert/",
