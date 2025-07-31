@@ -293,6 +293,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/4965902_1592_9.jpg",
         "link": "https://BrahimSAA.github.io/The_Ultimate_Redux_Course/",
         "category": "programming"
+    },
+    {
+        "title": "The Ultimate React Course React",
+        "description": "Master React development from the fundamentals to advanced concepts, building real-world projects and becoming a confident React developer. This is the definitive course to elevate your React skills.",
+        "image": "https://img-c.udemycdn.com/course/240x135/5512768_ffa4_29.jpg",
+        "link": "https://BrahimSAA.github.io/The_Ultimate_React_Course_React/",
+        "category": "programming"
     }
 
 ];
