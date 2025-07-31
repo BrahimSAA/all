@@ -281,13 +281,6 @@ const courses = [
         "category": "web-development"
     },
     {
-        "title": "The Complete JavaScript Course 2025 From Zero to Expert",
-        "description": "Master JavaScript from the ground up, becoming a proficient and highly sought-after JavaScript developer by 2025 with this comprehensive course. Learn everything from basic syntax to advanced concepts and real-world projects.",
-        "image": "https://img-c.udemycdn.com/course/240x135/851712_fc61_6.jpg",
-        "link": "https://BrahimSAA.github.io/The_Complete_JavaScript_Course_2025_From_Zero_to_Expert/",
-        "category": "programming"
-    },
-    {
         "title": "The Ultimate Redux Course",
         "description": "Master Redux, the popular state management library, with this comprehensive course covering everything from basic concepts to advanced techniques. Build scalable and maintainable applications by leveraging Redux's powerful ecosystem.",
         "image": "https://img-c.udemycdn.com/course/240x135/4965902_1592_9.jpg",
