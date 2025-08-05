@@ -293,6 +293,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/5512768_ffa4_29.jpg",
         "link": "https://BrahimSAA.github.io/The_Ultimate_React_Course_React/",
         "category": "programming"
+    },
+    {
+        "title": "ELK Kibana and Sysmon Setup Windows Cybersecurity Guide",
+        "description": "Learn to establish a robust cybersecurity monitoring system on Windows using ELK stack, Kibana, and Sysmon. This course guides you through setup, configuration, and effective threat detection.",
+        "image": "https://img-c.udemycdn.com/course/240x135/4955894_2268_4.jpg",
+        "link": "https://BrahimSAA.github.io/ELK_Kibana_and_Sysmon_Setup_Windows_Cybersecurity_Guide/",
+        "category": "cybersecurity"
     }
 
 ];
