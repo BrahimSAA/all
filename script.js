@@ -300,6 +300,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/4955894_2268_4.jpg",
         "link": "https://BrahimSAA.github.io/ELK_Kibana_and_Sysmon_Setup_Windows_Cybersecurity_Guide/",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Elasticsearch 7 and the Elastic Stack In Depth and Hands On",
+        "description": "Learn Elasticsearch 7 and the Elastic Stack through in-depth exploration and practical, hands-on exercises. This course covers everything from basic setup to advanced features and real-world applications.",
+        "image": "https://img-c.udemycdn.com/course/240x135/2365836_55c4_3.jpg",
+        "link": "https://BrahimSAA.github.io/Elasticsearch_7_and_the_Elastic_Stack_In_Depth_and_Hands_On/",
+        "category": "data-science"
     }
 
 ];
