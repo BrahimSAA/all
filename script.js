@@ -307,6 +307,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/2365836_55c4_3.jpg",
         "link": "https://BrahimSAA.github.io/Elasticsearch_7_and_the_Elastic_Stack_In_Depth_and_Hands_On/",
         "category": "data-science"
+    },
+    {
+        "title": "DevOps Bootcamp Learn Linux & Become a Linux Sysadmin",
+        "description": "This DevOps Bootcamp provides a deep dive into Linux, equipping students with the skills to effectively manage Linux systems and pursue a career as a Linux System Administrator.",
+        "image": "https://images.ctfassets.net/aq13lwl6616q/Lxp7NOjFmtq9IlqyBKgPt/b868427a9f388c8105f051bf1c6062f3/Linux_sysadmin_DevOps_Series.png?w=400&h=225&q=50&fm=png&bg=transparent",
+        "link": "https://BrahimSAA.github.io/DevOps_Bootcamp_Learn_Linux_-_Become_a_Linux_Sysadmin/",
+        "category": "programming"
     }
 
 ];
