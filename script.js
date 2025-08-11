@@ -260,13 +260,6 @@ const courses = [
         "category": "programming"
     },
     {
-        "title": "DevOps Bootcamp Learn Linux & Become a Linux Sysadmin",
-        "description": "This DevOps Bootcamp provides students with the skills to master Linux and become a proficient Linux System Administrator. The course covers essential Linux concepts and practical DevOps techniques for system administration.",
-        "image": "https://images.ctfassets.net/aq13lwl6616q/Lxp7NOjFmtq9IlqyBKgPt/b868427a9f388c8105f051bf1c6062f3/Linux_sysadmin_DevOps_Series.png?w=400&h=225&q=50&fm=png&bg=transparent",
-        "link": "https://BrahimSAA.github.io/DevOps_Bootcamp_Learn_Linux_-_Become_a_Linux_Sysadmin",
-        "category": "DevOps"
-    },
-    {
         "title": "NGINX Fundamentals High Performance Servers from Scratch",
         "description": "Learn the essentials of NGINX, starting from basic setup to building high-performance servers from the ground up. This course covers configuration, optimization, and best practices for deploying robust web servers using NGINX.",
         "image": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/9a4da97c3b99.jpg",
@@ -293,20 +286,6 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/5512768_ffa4_29.jpg",
         "link": "https://BrahimSAA.github.io/The_Ultimate_React_Course_React/",
         "category": "programming"
-    },
-    {
-        "title": "ELK Kibana and Sysmon Setup Windows Cybersecurity Guide",
-        "description": "Learn to establish a robust cybersecurity monitoring system on Windows using ELK stack, Kibana, and Sysmon. This course guides you through setup, configuration, and effective threat detection.",
-        "image": "https://img-c.udemycdn.com/course/240x135/4955894_2268_4.jpg",
-        "link": "https://BrahimSAA.github.io/ELK_Kibana_and_Sysmon_Setup_Windows_Cybersecurity_Guide/",
-        "category": "cybersecurity"
-    },
-    {
-        "title": "Elasticsearch 7 and the Elastic Stack In Depth and Hands On",
-        "description": "Learn Elasticsearch 7 and the Elastic Stack through in-depth exploration and practical, hands-on exercises. This course covers everything from basic setup to advanced features and real-world applications.",
-        "image": "https://img-c.udemycdn.com/course/240x135/2365836_55c4_3.jpg",
-        "link": "https://BrahimSAA.github.io/Elasticsearch_7_and_the_Elastic_Stack_In_Depth_and_Hands_On/",
-        "category": "data-science"
     },
     {
         "title": "DevOps Bootcamp Learn Linux & Become a Linux Sysadmin",
