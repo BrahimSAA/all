@@ -6,7 +6,7 @@ const courses = [
         id: 1,
         title: "Linux 101",
         description: "Master essential Linux commands for admins and security pros.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/znrRDjrwRRykVhFB5Osj    ",
+        image: "Images/linux101.png",
         link: "https://BrahimSAA.github.io/Linux_101/    ",
         category: "systems"
     },
@@ -583,3 +583,4 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
