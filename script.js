@@ -286,7 +286,7 @@ const courses = [
         id: 36,
         title: "Node.js, Express, MongoDB",
         description: "Build full-stack apps with the MERN/MEAN stack backend.",
-        image: "Images/nodejs.png",
+        image: "Images/nodejs.jpg",
         link: "https://BrahimSAA.github.io/Node-js-_Express-_MongoDB    ",
         category: "web-development"
     },
@@ -583,4 +583,5 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
