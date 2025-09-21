@@ -176,7 +176,7 @@ const courses = [
         description: "Find and exploit web app vulnerabilities like a pro.",
         image: "Images/web_hack.webp",
         link: "https://BrahimSAA.github.io/Practical_Web_Hacking/    ",
-        category: "Web Security"
+        category: "cybersecurity"
     },
     {
         id: 23,
@@ -184,7 +184,7 @@ const courses = [
         description: "Hack and secure modern APIs with real-world techniques.",
         image: "Images/API_hack.png",
         link: "https://BrahimSAA.github.io/Practical_API_Hacking/    ",
-        category: "programming"
+        category: "cybersecurity"
     },
     {
         id: 24,
@@ -200,7 +200,7 @@ const courses = [
         description: "Test Android & iOS apps for security vulnerabilities.",
         image: "Images/mobile.png",
         link: "https://BrahimSAA.github.io/Mobile_Application_Penetration_Testing/    ",
-        category: "Mobile Security"
+        category: "cybersecurity"
     },
     {
         id: 26,
@@ -208,7 +208,7 @@ const courses = [
         description: "Escalate privileges in Linux during penetration tests.",
         image: "Images/linux_previlege.png",
         link: "https://BrahimSAA.github.io/Linux_Privilege_Escalation_for_Beginners/    ",
-        category: "Penetration Testing"
+        category: "cybersecurity"
     },
     {
         id: 27,
@@ -216,7 +216,7 @@ const courses = [
         description: "Gain SYSTEM access by exploiting Windows misconfigurations.",
         image: "Images/windows_previlege.png",
         link: "https://BrahimSAA.github.io/Windows_Privilege_Escalation_for_Beginners/    ",
-        category: "Windows Security"
+        category: "cybersecurity"
     },
     {
         id: 28,
@@ -248,7 +248,7 @@ const courses = [
         description: "Professional bug hunting techniques for bounty programs.",
         image: "Images/bug.png",
         link: "https://BrahimSAA.github.io/Practical_Bug_Bounty/    ",
-        category: "Ethical Hacking"
+        category: "cybersecurity"
     },
     {
         id: 32,
@@ -256,7 +256,7 @@ const courses = [
         description: "Create and defend against social engineering phishing attacks.",
         image: "Images/phishing.png",
         link: "https://BrahimSAA.github.io/Practical_Phishing_Campaigns/    ",
-        category: "Social Engineering"
+        category: "cybersecurity"
     },
     {
         id: 33,
@@ -264,7 +264,7 @@ const courses = [
         description: "Build threat detection rules and security monitoring systems.",
         image: "Images/detection.jpg",
         link: "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners/    ",
-        category: "Cyber Defense"
+        category: "cybersecurity"
     },
     {
         id: 34,
@@ -280,7 +280,7 @@ const courses = [
         description: "Master Governance, Risk, and Compliance for enterprises.",
         image: "Images/GRC.png",
         link: "https://BrahimSAA.github.io/GRC_Analyst_Master_Class    ",
-        category: "business"
+        category: "cybersecurity"
     },
     {
         id: 36,
@@ -583,5 +583,6 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
