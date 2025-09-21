@@ -54,7 +54,7 @@ const courses = [
         id: 7,
         title: "Security Operations (SOC) 101",
         description: "Intro to SOC workflows, detection, and incident response.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/doDD6MrQgma58qFv0TSP    ",
+        image: "Images/soc.webp",
         link: "https://BrahimSAA.github.io/Security_Operations_-SOC-_101/    ",
         category: "cybersecurity"
     },
@@ -110,7 +110,7 @@ const courses = [
         id: 14,
         title: "Python 201 For Hackers",
         description: "Advanced Python: OOP, decorators, async for hackers.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/xUP2OWjTTuG1Pzx8AL8u    ",
+        image: "Images/Python_201.png",
         link: "https://BrahimSAA.github.io/Python_201_For_Hackers/    ",
         category: "programming"
     },
@@ -142,7 +142,7 @@ const courses = [
         id: 18,
         title: "C# 101 for Hackers",
         description: "C# fundamentals for security and penetration testing.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg    ",
+        image: "Images/C_sharp.webp",
         link: "https://BrahimSAA.github.io/C_sharp_101_for_Hackers/    ",
         category: "Cybersecurity"
     },
@@ -158,7 +158,7 @@ const courses = [
         id: 20,
         title: "Open-Source Intelligence (OSINT) Fundamentals",
         description: "Gather intelligence from public sources for investigations.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/cndIXbcWSsXldQrB5jTo    ",
+        image: "Images/OSINT.png",
         link: "https://BrahimSAA.github.io/Open-Source_Intelligence_-OSINT-_Fundamentals/    ",
         category: "cybersecurity"
     },
@@ -166,7 +166,7 @@ const courses = [
         id: 21,
         title: "Practical Malware Analysis and Triage",
         description: "Analyze malware behavior and reverse engineer threats.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/KWZgSZeATJmhuBdIhLGN    ",
+        image: "Images/malware.png",
         link: "https://BrahimSAA.github.io/Practical_Malware_Analysis_and_Triage/    ",
         category: "cybersecurity"
     },
@@ -174,7 +174,7 @@ const courses = [
         id: 22,
         title: "Practical Web Hacking",
         description: "Find and exploit web app vulnerabilities like a pro.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/9c7K4sUTXOjS0vKWVr7V    ",
+        image: "Images/web_hack.webp",
         link: "https://BrahimSAA.github.io/Practical_Web_Hacking/    ",
         category: "Web Security"
     },
@@ -182,7 +182,7 @@ const courses = [
         id: 23,
         title: "Practical API Hacking",
         description: "Hack and secure modern APIs with real-world techniques.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/hDCDoCxRSGCa2vLD9UCV    ",
+        image: "Images/API_hack.png",
         link: "https://BrahimSAA.github.io/Practical_API_Hacking/    ",
         category: "programming"
     },
@@ -198,7 +198,7 @@ const courses = [
         id: 25,
         title: "Mobile Application Penetration Testing",
         description: "Test Android & iOS apps for security vulnerabilities.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/lfFu7iSIyJwPhrR2yz1w    ",
+        image: "Images/mobile.png",
         link: "https://BrahimSAA.github.io/Mobile_Application_Penetration_Testing/    ",
         category: "Mobile Security"
     },
@@ -206,7 +206,7 @@ const courses = [
         id: 26,
         title: "Linux Privilege Escalation for Beginners",
         description: "Escalate privileges in Linux during penetration tests.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/6ZeARBwScaIN1UxGh5Z4    ",
+        image: "Images/linux_previlege.png",
         link: "https://BrahimSAA.github.io/Linux_Privilege_Escalation_for_Beginners/    ",
         category: "Penetration Testing"
     },
@@ -214,7 +214,7 @@ const courses = [
         id: 27,
         title: "Windows Privilege Escalation for Beginners",
         description: "Gain SYSTEM access by exploiting Windows misconfigurations.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/3TDZkYDzRxaZGnwCHOvW    ",
+        image: "Images/windows_previlege.png",
         link: "https://BrahimSAA.github.io/Windows_Privilege_Escalation_for_Beginners/    ",
         category: "Windows Security"
     },
@@ -238,7 +238,7 @@ const courses = [
         id: 30,
         title: "Practical Ethical Hacking",
         description: "Ethical hacking methodologies for real-world penetration tests.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/25Jl6X5mQ6iALUtb931B    ",
+        image: "Images/ETH.png",
         link: "https://BrahimSAA.github.io/Practical_Ethical_Hacking/    ",
         category: "cybersecurity"
     },
@@ -246,7 +246,7 @@ const courses = [
         id: 31,
         title: "Practical Bug Bounty",
         description: "Professional bug hunting techniques for bounty programs.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/pVs4ytz0RiG8bzlwDyox    ",
+        image: "Images/bug.png",
         link: "https://BrahimSAA.github.io/Practical_Bug_Bounty/    ",
         category: "Ethical Hacking"
     },
@@ -254,7 +254,7 @@ const courses = [
         id: 32,
         title: "Practical Phishing Campaigns",
         description: "Create and defend against social engineering phishing attacks.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/vIuC2QSyRNCclJ8oh3aQ    ",
+        image: "Images/phishing.png",
         link: "https://BrahimSAA.github.io/Practical_Phishing_Campaigns/    ",
         category: "Social Engineering"
     },
@@ -262,7 +262,7 @@ const courses = [
         id: 33,
         title: "Detection Engineering for Beginners",
         description: "Build threat detection rules and security monitoring systems.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/tS0hJsAARMWznu0NjWsh    ",
+        image: "Images/detection.jpg",
         link: "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners/    ",
         category: "Cyber Defense"
     },
@@ -278,7 +278,7 @@ const courses = [
         id: 35,
         title: "GRC Analyst Master Class",
         description: "Master Governance, Risk, and Compliance for enterprises.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://uploads.teachablecdn.com/attachments/2fdqCoajQ6qU8syJO2yO_grc-new-2.png    ",
+        image: "Images/GRC.png",
         link: "https://BrahimSAA.github.io/GRC_Analyst_Master_Class    ",
         category: "business"
     },
@@ -286,7 +286,7 @@ const courses = [
         id: 36,
         title: "Node.js, Express, MongoDB",
         description: "Build full-stack apps with the MERN/MEAN stack backend.",
-        image: "https://miro.medium.com/v2/resize    :fit:365/1*Jr3NFSKTfQWRUyjblBSKeg.png",
+        image: "Images/nodejs.png",
         link: "https://BrahimSAA.github.io/Node-js-_Express-_MongoDB    ",
         category: "web-development"
     },
@@ -294,7 +294,7 @@ const courses = [
         id: 37,
         title: "Programming with AI",
         description: "Integrate AI tools and automation into your code.",
-        image: "https://venturebeat.com/wp-content/uploads/2023/08/annevb_the_end_of_programming._colorful_futuristic_tech_3d6db463-375e-4d84-9324-2b045c20313a.png?w=400",
+        image: "Images/AI.webp",
         link: "    https://BrahimSAA.github.io/Programming_with_AI    ",
         category: "programming"
     },
@@ -583,6 +583,3 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
-
-
-
