@@ -15,13 +15,38 @@
     </header>
     
     <div class="container">
+        <!-- Search Bar with Clear Button -->
         <div class="search-container">
             <input type="text" id="search" placeholder="Search courses..." aria-label="Search courses">
+            <button id="clear-search" class="clear-btn" aria-label="Clear search">×</button>
         </div>
-        
+
+        <!-- Results Info -->
+        <div id="results-info" class="results-info"></div>
+
+        <!-- No Results Message -->
+        <div id="no-results" class="no-results">
+            <p>No courses found. Try a different search term or filter.</p>
+        </div>
+
+        <!-- Category Filter Buttons -->
+        <div class="filter-container">
+            <button class="filter-btn active" data-category="all">All Courses</button>
+            <button class="filter-btn" data-category="cybersecurity">Cybersecurity</button>
+            <button class="filter-btn" data-category="programming">Programming</button>
+            <button class="filter-btn" data-category="systems">Systems</button>
+            <button class="filter-btn" data-category="web-development">Web Dev</button>
+            <button class="filter-btn" data-category="business">Business</button>
+            <button class="filter-btn" data-category="data-science">Data Science</button>
+        </div>
+
+        <!-- Courses Grid -->
         <div class="courses-grid" id="courses-container">
             <!-- Course cards will be inserted here by JavaScript -->
         </div>
+
+        <!-- Reset Filters Button -->
+        <button id="reset-search" class="reset-btn">Reset All Filters</button>
     </div>
     
     <footer>
