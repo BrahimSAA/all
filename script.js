@@ -30,7 +30,7 @@ const courses = [
         id: 4,
         title: "Python 101 for Hackers",
         description: "Learn Python basics tailored for security professionals.",
-        image: "Images/Python_101.png,
+        image: "Images/Python_101.png",
         link: "https://BrahimSAA.github.io/Python_101_for_Hackers/    ",
         category: "programming"
     },
@@ -583,3 +583,4 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
