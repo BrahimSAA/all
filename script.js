@@ -1,343 +1,585 @@
+
+// Course data
 // Course data
 const courses = [
     {
-      "title": "Linux 101",
-      "description": "Essential Linux skills for system administration and security professionals.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/znrRDjrwRRykVhFB5Osj",
-      "link": "https://BrahimSAA.github.io/Linux_101/",
-      "category": "systems"
+        id: 1,
+        title: "Linux 101",
+        description: "Master essential Linux commands for admins and security pros.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/znrRDjrwRRykVhFB5Osj    ",
+        link: "https://BrahimSAA.github.io/Linux_101/    ",
+        category: "systems"
     },
     {
-      "title": "Bash Scripting Learn Shell Scripting",
-      "description": "Automate tasks and manage systems using Bash scripting techniques.",
-      "image": "https://images.ctfassets.net/aq13lwl6616q/395iMiqbPBUPQGGEluVUXT/ca0636cf2e4f182c5f5821386bcd02ee/Academy_3_Course_Thumbnail_-_Bash_Programming.png?w=400&fm=webp",
-      "link": "https://BrahimSAA.github.io/Bash_Scripting_Learn_Shell_Scripting",
-      "category": "programming"
+        id: 2,
+        title: "Bash Scripting Learn Shell Scripting",
+        description: "Automate system tasks with powerful Bash scripting.",
+        image: "https://images.ctfassets.net/aq13lwl6616q/395iMiqbPBUPQGGEluVUXT/ca0636cf2e4f182c5f5821386bcd02ee/Academy_3_Course_Thumbnail_-_Bash_Programming.png?w=400&fm=webp",
+        link: "    https://BrahimSAA.github.io/Bash_Scripting_Learn_Shell_Scripting    ",
+        category: "programming"
     },
     {
-      "title": "CompTIA Security+ Certification Bootcamp",
-      "description": "Intensive preparation for Security+ exam with hands-on security training.",
-      "image": "https://img-c.udemycdn.com/course/240x135/2616890_6925.jpg",
-      "link": "https://BrahimSAA.github.io/CompTIA_Security-_Certification_Bootcamp",
-      "category": "cybersecurity"
+        id: 3,
+        title: "CompTIA Security+ Certification Bootcamp",
+        description: "Pass Security+ with hands-on exam prep and labs.",
+        image: "https://img-c.udemycdn.com/course/240x135/2616890_6925.jpg    ",
+        link: "https://BrahimSAA.github.io/CompTIA_Security-_Certification_Bootcamp    ",
+        category: "cybersecurity"
     },
     {
-      "title": "Python 101 for Hackers",
-      "description": "Beginner-friendly introduction to Python programming fundamentals.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/qT5GRyTSHWEoH1Euq7ym",
-      "link": "https://BrahimSAA.github.io/Python_101_for_Hackers/",
-      "category": "programming"
+        id: 4,
+        title: "Python 101 for Hackers",
+        description: "Learn Python basics tailored for security professionals.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/qT5GRyTSHWEoH1Euq7ym    ",
+        link: "https://BrahimSAA.github.io/Python_101_for_Hackers/    ",
+        category: "programming"
     },
     {
-      "title": "Java Essentials",
-      "description": "Learn Java fundamentals including syntax and object-oriented programming basics.",
-      "image": "https://m.media-amazon.com/images/I/91AB88mdK8L._AC_UF350,350_QL50_.jpg",
-      "link": "https://BrahimSAA.github.io/Java_Essentials",
-      "category": "programming"
+        id: 5,
+        title: "Java Essentials",
+        description: "Core Java syntax and OOP for beginners.",
+        image: "https://m.media-amazon.com/images/I/91AB88mdK8L._AC_UF350    ,350_QL50_.jpg",
+        link: "https://BrahimSAA.github.io/Java_Essentials    ",
+        category: "programming"
     },
     {
-      "title": "The Ultimate JavaScript Series",
-      "description": "Complete JavaScript guide from fundamentals to modern frameworks.",
-      "image": "https://i.ytimg.com/vi/8w_oH58AvoA/mqdefault.jpg",
-      "link": "https://BrahimSAA.github.io/The_Ultimate_JavaScript_Series",
-      "category": "programming"
+        id: 6,
+        title: "The Ultimate JavaScript Series",
+        description: "From JS fundamentals to modern frameworks like React.",
+        image: "https://i.ytimg.com/vi/8w_oH58AvoA/mqdefault.jpg    ",
+        link: "https://BrahimSAA.github.io/The_Ultimate_JavaScript_Series    ",
+        category: "programming"
     },
     {
-      "title": "Security Operations (SOC) 101",
-      "description": "Learn SOC fundamentals, threat detection, and incident response techniques.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/doDD6MrQgma58qFv0TSP",
-      "link": "https://BrahimSAA.github.io/Security_Operations_-SOC-_101/",
-      "category": "cybersecurity"
+        id: 7,
+        title: "Security Operations (SOC) 101",
+        description: "Intro to SOC workflows, detection, and incident response.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/doDD6MrQgma58qFv0TSP    ",
+        link: "https://BrahimSAA.github.io/Security_Operations_-SOC-_101/    ",
+        category: "cybersecurity"
     },
     {
-      "title": "AWS Certified Cloud Practitioner",
-      "description": "Fundamental AWS cloud concepts and services for certification preparation.",
-      "image": "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2020/11/10/AWSCloudPractitionerEssentialsBlog_300x150.png",
-      "link": "https://BrahimSAA.github.io/AWS_Certified_Cloud_Practitioner",
-      "category": "business"
+        id: 8,
+        title: "AWS Certified Cloud Practitioner",
+        description: "Foundational AWS knowledge for cloud certification.",
+        image: "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2020/11/10/AWSCloudPractitionerEssentialsBlog_300x150.png    ",
+        link: "https://BrahimSAA.github.io/AWS_Certified_Cloud_Practitioner    ",
+        category: "business"
     },
     {
-      "title": "AZ-900 Microsoft Azure Fundamentals",
-      "description": "Core Azure services and cloud computing fundamentals.",
-      "image": "https://img-c.udemycdn.com/course/240x135/3140524_2f2f_8.jpg",
-      "link": "https://BrahimSAA.github.io/AZ-900_Microsoft_Azure_Fundamentals",
-      "category": "Cloud"
+        id: 9,
+        title: "AZ-900 Microsoft Azure Fundamentals",
+        description: "Core Azure concepts for cloud beginners.",
+        image: "https://img-c.udemycdn.com/course/240x135/3140524_2f2f_8.jpg    ",
+        link: "https://BrahimSAA.github.io/AZ-900_Microsoft_Azure_Fundamentals    ",
+        category: "Cloud"
     },
     {
-      "title": "AWS Certified Solutions Architect",
-      "description": "Design scalable and fault-tolerant systems on AWS platform.",
-      "image": "https://img-c.udemycdn.com/course/240x135/5914092_588d_2.jpg",
-      "link": "https://BrahimSAA.github.io/AWS_Certified_Solutions_Architect",
-      "category": "design"
+        id: 10,
+        title: "AWS Certified Solutions Architect",
+        description: "Design scalable, secure systems on AWS.",
+        image: "https://img-c.udemycdn.com/course/240x135/5914092_588d_2.jpg    ",
+        link: "https://BrahimSAA.github.io/AWS_Certified_Solutions_Architect    ",
+        category: "design"
     },
     {
-      "title": "CCNA Networking Complete Cisco CCNA 200-301 Prep Course",
-      "description": "Prepare for CCNA certification with networking fundamentals and Cisco tech.",
-      "image": "https://img-c.udemycdn.com/course/240x135/5623666_17de_5.jpg",
-      "link": "https://BrahimSAA.github.io/CCNA_Networking__Complete_Cisco_CCNA_200-301_Prep_Course",
-      "category": "cybersecurity"
+        id: 11,
+        title: "CCNA Networking Complete Cisco CCNA 200-301 Prep Course",
+        description: "Full CCNA prep with Cisco networking fundamentals.",
+        image: "https://img-c.udemycdn.com/course/240x135/5623666_17de_5.jpg    ",
+        link: "https://BrahimSAA.github.io/CCNA_Networking__Complete_Cisco_CCNA_200-301_Prep_Course    ",
+        category: "cybersecurity"
     },
     {
-      "title": "The Ultimate Docker Course",
-      "description": "Master containerization and Docker from basics to advanced.",
-      "image": "https://img-c.udemycdn.com/course/240x135/5730026_f14f_6.jpg",
-      "link": "https://BrahimSAA.github.io/The_Ultimate_Docker_Course",
-      "category": "programming"
+        id: 12,
+        title: "The Ultimate Docker Course",
+        description: "Master containers and Docker from beginner to advanced.",
+        image: "https://img-c.udemycdn.com/course/240x135/5730026_f14f_6.jpg    ",
+        link: "https://BrahimSAA.github.io/The_Ultimate_Docker_Course    ",
+        category: "programming"
     },
     {
-      "title": "Mastering Kubernetes",
-      "description": "Learn Kubernetes core concepts and deployment strategies for container management.",
-      "image": "https://www.uptycs.com/hs-fs/hubfs/mastering-kubernetes-container-security.jpg?width=352&name=mastering-kubernetes-container-security.jpg",
-      "link": "https://BrahimSAA.github.io/Mastering_Kubernetes",
-      "category": "programming"
+        id: 13,
+        title: "Mastering Kubernetes",
+        description: "Deploy and manage containerized apps with Kubernetes.",
+        image: "https://www.uptycs.com/hs-fs/hubfs/mastering-kubernetes-container-security.jpg?width=352&name=mastering-kubernetes-container-security.jpg",
+        link: "    https://BrahimSAA.github.io/Mastering_Kubernetes    ",
+        category: "programming"
     },
     {
-      "title": "Python 201 For Hackers",
-      "description": "Advanced Python concepts including OOP, decorators, and async programming.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/xUP2OWjTTuG1Pzx8AL8u",
-      "link": "https://BrahimSAA.github.io/Python_201_For_Hackers/",
-      "category": "programming"
+        id: 14,
+        title: "Python 201 For Hackers",
+        description: "Advanced Python: OOP, decorators, async for hackers.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/xUP2OWjTTuG1Pzx8AL8u    ",
+        link: "https://BrahimSAA.github.io/Python_201_For_Hackers/    ",
+        category: "programming"
     },
     {
-      "title": "The Complete ASP.NET MVC 5 Course",
-      "description": "Build robust web applications with ASP.NET MVC 5 framework.",
-      "image": "https://img-c.udemycdn.com/course/240x135/806922_6310_3.jpg",
-      "link": "https://BrahimSAA.github.io/The_Complete_ASP-NET_MVC_5_Course",
-      "category": "web-development"
+        id: 15,
+        title: "The Complete ASP.NET MVC 5 Course",
+        description: "Build web apps with ASP.NET MVC 5.",
+        image: "https://img-c.udemycdn.com/course/240x135/806922_6310_3.jpg    ",
+        link: "https://BrahimSAA.github.io/The_Complete_ASP-NET_MVC_5_Course    ",
+        category: "web-development"
     },
     {
-      "title": "Build a Real-world App with ASP.NET Core and Angular 2 (4+)",
-      "description": "Full-stack development with ASP.NET Core backend and Angular frontend.",
-      "image": "https://freecoursesite.com/wp-content/uploads/2018/05/1144726_45a2_2-300x169.jpg",
-      "link": "https://BrahimSAA.github.io/Build_a_Real-world_App_with_ASP-NET_Core_and_Angular_2_-4--",
-      "category": "web-development"
+        id: 16,
+        title: "Build a Real-world App with ASP.NET Core and Angular 2 (4+)",
+        description: "Full-stack app with .NET backend and Angular frontend.",
+        image: "https://freecoursesite.com/wp-content/uploads/2018/05/1144726_45a2_2-300x169.jpg    ",
+        link: "https://BrahimSAA.github.io/Build_a_Real-world_App_with_ASP-NET_Core_and_Angular_2_-4--    ",
+        category: "web-development"
     },
     {
-      "title": "Getting Started with Ansible Automation Made Easy",
-      "description": "Beginner's guide to automating IT tasks with Ansible.",
-      "image": "https://img-c.udemycdn.com/course/240x135/6032754_930e.jpg",
-      "link": "https://BrahimSAA.github.io/Getting_Started_with_Ansible_Automation_Made_Easy",
-      "category": "programming"
+        id: 17,
+        title: "Getting Started with Ansible Automation Made Easy",
+        description: "Automate IT infrastructure with simple Ansible playbooks.",
+        image: "https://img-c.udemycdn.com/course/240x135/6032754_930e.jpg    ",
+        link: "https://BrahimSAA.github.io/Getting_Started_with_Ansible_Automation_Made_Easy    ",
+        category: "programming"
     },
     {
-      "title": "C# 101 for Hackers",
-      "description": "A specialized guide covering C# programming techniques, security concepts, and penetration testing applications for cybersecurity professionals.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg",
-      "link": "https://BrahimSAA.github.io/C_sharp_101_for_Hackers/",
-      "category": "Cybersecurity"
+        id: 18,
+        title: "C# 101 for Hackers",
+        description: "C# fundamentals for security and penetration testing.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/8IL5ZJ7ASSarS6x0xBPg    ",
+        link: "https://BrahimSAA.github.io/C_sharp_101_for_Hackers/    ",
+        category: "Cybersecurity"
     },
     {
-      "title": "Master Python Hacking plus then 15 Projects from Beginner to Expert",
-      "description": "Ethical hacking with Python through 15 practical projects.",
-      "image": "https://img-c.udemycdn.com/course/240x135/6124711_54b8_2.jpg",
-      "link": "https://BrahimSAA.github.io/Master_Python_Hacking_plus_then_15_Projects_from_Beginner_to_Expert",
-      "category": "cybersecurity"
+        id: 19,
+        title: "Master Python Hacking plus then 15 Projects from Beginner to Expert",
+        description: "Learn ethical hacking with 15 hands-on Python projects.",
+        image: "https://img-c.udemycdn.com/course/240x135/6124711_54b8_2.jpg    ",
+        link: "https://BrahimSAA.github.io/Master_Python_Hacking_plus_then_15_Projects_from_Beginner_to_Expert    ",
+        category: "cybersecurity"
     },
     {
-      "title": "Open-Source Intelligence (OSINT) Fundamentals",
-      "description": "Learn open-source intelligence gathering techniques for investigations.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/cndIXbcWSsXldQrB5jTo",
-      "link": "https://BrahimSAA.github.io/Open-Source_Intelligence_-OSINT-_Fundamentals/",
-      "category": "cybersecurity"
+        id: 20,
+        title: "Open-Source Intelligence (OSINT) Fundamentals",
+        description: "Gather intelligence from public sources for investigations.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/cndIXbcWSsXldQrB5jTo    ",
+        link: "https://BrahimSAA.github.io/Open-Source_Intelligence_-OSINT-_Fundamentals/    ",
+        category: "cybersecurity"
     },
     {
-      "title": "Practical Malware Analysis and Triage",
-      "description": "Understand malware behavior, reverse engineering, and defense strategies.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/KWZgSZeATJmhuBdIhLGN",
-      "link": "https://BrahimSAA.github.io/Practical_Malware_Analysis_and_Triage/",
-      "category": "cybersecurity"
+        id: 21,
+        title: "Practical Malware Analysis and Triage",
+        description: "Analyze malware behavior and reverse engineer threats.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/KWZgSZeATJmhuBdIhLGN    ",
+        link: "https://BrahimSAA.github.io/Practical_Malware_Analysis_and_Triage/    ",
+        category: "cybersecurity"
     },
     {
-      "title": "Practical Web Hacking",
-      "description": "Hands-on web application penetration testing and vulnerability discovery.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/9c7K4sUTXOjS0vKWVr7V",
-      "link": "https://BrahimSAA.github.io/Practical_Web_Hacking/",
-      "category": "Web Security"
+        id: 22,
+        title: "Practical Web Hacking",
+        description: "Find and exploit web app vulnerabilities like a pro.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/9c7K4sUTXOjS0vKWVr7V    ",
+        link: "https://BrahimSAA.github.io/Practical_Web_Hacking/    ",
+        category: "Web Security"
     },
     {
-      "title": "Practical API Hacking",
-      "description": "Understand API vulnerabilities and how to secure modern web applications.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/hDCDoCxRSGCa2vLD9UCV",
-      "link": "https://BrahimSAA.github.io/Practical_API_Hacking/",
-      "category": "programming"
+        id: 23,
+        title: "Practical API Hacking",
+        description: "Hack and secure modern APIs with real-world techniques.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/hDCDoCxRSGCa2vLD9UCV    ",
+        link: "https://BrahimSAA.github.io/Practical_API_Hacking/    ",
+        category: "programming"
     },
     {
-      "title": "Web Security & Bug Bounty Learn Penetration Testing",
-      "description": "Learn penetration testing for web security and bug bounties.",
-      "image": "https://img-c.udemycdn.com/course/240x135/3985968_eafc_4.jpg",
-      "link": "https://BrahimSAA.github.io/Web_Security_-_Bug_Bounty_Learn_Penetration_Testing",
-      "category": "cybersecurity"
+        id: 24,
+        title: "Web Security & Bug Bounty Learn Penetration Testing",
+        description: "Start bug bounty hunting with web pentesting skills.",
+        image: "https://img-c.udemycdn.com/course/240x135/3985968_eafc_4.jpg    ",
+        link: "https://BrahimSAA.github.io/Web_Security_-_Bug_Bounty_Learn_Penetration_Testing    ",
+        category: "cybersecurity"
     },
     {
-      "title": "Mobile Application Penetration Testing",
-      "description": "Comprehensive guide to finding vulnerabilities in Android and iOS applications.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/lfFu7iSIyJwPhrR2yz1w",
-      "link": "https://BrahimSAA.github.io/Mobile_Application_Penetration_Testing/",
-      "category": "Mobile Security"
+        id: 25,
+        title: "Mobile Application Penetration Testing",
+        description: "Test Android & iOS apps for security vulnerabilities.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/lfFu7iSIyJwPhrR2yz1w    ",
+        link: "https://BrahimSAA.github.io/Mobile_Application_Penetration_Testing/    ",
+        category: "Mobile Security"
     },
     {
-      "title": "Linux Privilege Escalation for Beginners",
-      "description": "Master privilege escalation techniques in Linux environments for penetration testing.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/6ZeARBwScaIN1UxGh5Z4",
-      "link": "https://BrahimSAA.github.io/Linux_Privilege_Escalation_for_Beginners/",
-      "category": "Penetration Testing"
+        id: 26,
+        title: "Linux Privilege Escalation for Beginners",
+        description: "Escalate privileges in Linux during penetration tests.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/6ZeARBwScaIN1UxGh5Z4    ",
+        link: "https://BrahimSAA.github.io/Linux_Privilege_Escalation_for_Beginners/    ",
+        category: "Penetration Testing"
     },
     {
-      "title": "Windows Privilege Escalation for Beginners",
-      "description": "Advanced techniques for escalating privileges in Windows environments.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/3TDZkYDzRxaZGnwCHOvW",
-      "link": "https://BrahimSAA.github.io/Windows_Privilege_Escalation_for_Beginners/",
-      "category": "Windows Security"
+        id: 27,
+        title: "Windows Privilege Escalation for Beginners",
+        description: "Gain SYSTEM access by exploiting Windows misconfigurations.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/3TDZkYDzRxaZGnwCHOvW    ",
+        link: "https://BrahimSAA.github.io/Windows_Privilege_Escalation_for_Beginners/    ",
+        category: "Windows Security"
     },
     {
-      "title": "Complete Cybersecurity Bootcamp",
-      "description": "Comprehensive training from cybersecurity basics to advanced techniques.",
-      "image": "https://www.itcareerfinder.com/images/best-cybersecurity-bootcamps-online-2024.gif",
-      "link": "https://BrahimSAA.github.io/Complete_Cybersecurity_Bootcamp",
-      "category": "cybersecurity"
+        id: 28,
+        title: "Complete Cybersecurity Bootcamp",
+        description: "All-in-one cybersecurity training from zero to hero.",
+        image: "https://www.itcareerfinder.com/images/best-cybersecurity-bootcamps-online-2024.gif    ",
+        link: "https://BrahimSAA.github.io/Complete_Cybersecurity_Bootcamp    ",
+        category: "cybersecurity"
     },
     {
-      "title": "Windows Server 2022 Administration",
-      "description": "Essential skills for managing Windows Server 2022 environments.",
-      "image": "https://kavoneinstitute.com/wp-content/uploads/2024/07/Windows-Server-2022-Administration.png",
-      "link": "https://BrahimSAA.github.io/Windows_Server_2022_Administration",
-      "category": "business"
+        id: 29,
+        title: "Windows Server 2022 Administration",
+        description: "Administer and manage Windows Server 2022 environments.",
+        image: "https://kavoneinstitute.com/wp-content/uploads/2024/07/Windows-Server-2022-Administration.png    ",
+        link: "https://BrahimSAA.github.io/Windows_Server_2022_Administration    ",
+        category: "business"
     },
     {
-      "title": "Practical Ethical Hacking",
-      "description": "Master ethical hacking techniques and penetration testing methodologies.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/25Jl6X5mQ6iALUtb931B",
-      "link": "https://BrahimSAA.github.io/Practical_Ethical_Hacking/",
-      "category": "cybersecurity"
+        id: 30,
+        title: "Practical Ethical Hacking",
+        description: "Ethical hacking methodologies for real-world penetration tests.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/25Jl6X5mQ6iALUtb931B    ",
+        link: "https://BrahimSAA.github.io/Practical_Ethical_Hacking/    ",
+        category: "cybersecurity"
     },
     {
-      "title": "Practical Bug Bounty",
-      "description": "Real-world bug hunting techniques used by professional security researchers.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/pVs4ytz0RiG8bzlwDyox",
-      "link": "https://BrahimSAA.github.io/Practical_Bug_Bounty/",
-      "category": "Ethical Hacking"
+        id: 31,
+        title: "Practical Bug Bounty",
+        description: "Professional bug hunting techniques for bounty programs.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/pVs4ytz0RiG8bzlwDyox    ",
+        link: "https://BrahimSAA.github.io/Practical_Bug_Bounty/    ",
+        category: "Ethical Hacking"
     },
     {
-      "title": "Practical Phishing Campaigns",
-      "description": "Understand and defend against modern phishing techniques and social engineering.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/vIuC2QSyRNCclJ8oh3aQ",
-      "link": "https://BrahimSAA.github.io/Practical_Phishing_Campaigns/",
-      "category": "Social Engineering"
+        id: 32,
+        title: "Practical Phishing Campaigns",
+        description: "Create and defend against social engineering phishing attacks.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/vIuC2QSyRNCclJ8oh3aQ    ",
+        link: "https://BrahimSAA.github.io/Practical_Phishing_Campaigns/    ",
+        category: "Social Engineering"
     },
     {
-      "title": "Detection Engineering for Beginners",
-      "description": "Build effective threat detection systems and security monitoring solutions.",
-      "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://cdn.filestackcontent.com/tS0hJsAARMWznu0NjWsh",
-      "link": "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners/",
-      "category": "Cyber Defense"
+        id: 33,
+        title: "Detection Engineering for Beginners",
+        description: "Build threat detection rules and security monitoring systems.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/tS0hJsAARMWznu0NjWsh    ",
+        link: "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners/    ",
+        category: "Cyber Defense"
     },
     {
-      "title": "Advanced Databases",
-      "description": "Learn distributed databases, NoSQL, and query optimization for high-performance systems.",
-      "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_z9Gtz-GV0uMw0JqKvKIv0DQZPGUPbJM8C3MMHu1aBX9_kU8Z6SZs8s9ddqJ-NcjzdUMeSaPUhfVxWrv-Vl9_rl5yXEOdLtrI8wgTmANoPfnogR_YCqJPO85ne4CwNRSc79x4GFX_3bXQm48c2uYjaSSVjD9cCCVpYdrvILMdZdsxtT_CkvJyvsl9Th_8/s320/ADBMS_GMeet%20Discussion%20Board_Aug%2024%202023.jpg",
-      "link": "https://BrahimSAA.github.io/Advanced_Databases",
-      "category": "data-science"
+        id: 34,
+        title: "Advanced Databases",
+        description: "Master NoSQL, distributed DBs, and high-performance queries.",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_z9Gtz-GV0uMw0JqKvKIv0DQZPGUPbJM8C3MMHu1aBX9_kU8Z6SZs8s9ddqJ-NcjzdUMeSaPUhfVxWrv-Vl9_rl5yXEOdLtrI8wgTmANoPfnogR_YCqJPO85ne4CwNRSc79x4GFX_3bXQm48c2uYjaSSVjD9cCCVpYdrvILMdZdsxtT_CkvJyvsl9Th_8/s320/ADBMS_GMeet%20Discussion%20Board_Aug%2024%202023.jpg    ",
+        link: "https://BrahimSAA.github.io/Advanced_Databases    ",
+        category: "data-science"
     },
     {
-        "title": "GRC Analyst Master Class",
-        "description": "Become a master of Governance, Risk, and Compliance analysis, learning to assess and manage organizational risks effectively.",
-        "image": "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width:705/https://uploads.teachablecdn.com/attachments/2fdqCoajQ6qU8syJO2yO_grc-new-2.png",
-        "link": "https://BrahimSAA.github.io/GRC_Analyst_Master_Class",
-        "category": "business"
+        id: 35,
+        title: "GRC Analyst Master Class",
+        description: "Master Governance, Risk, and Compliance for enterprises.",
+        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://uploads.teachablecdn.com/attachments/2fdqCoajQ6qU8syJO2yO_grc-new-2.png    ",
+        link: "https://BrahimSAA.github.io/GRC_Analyst_Master_Class    ",
+        category: "business"
     },
     {
-        "title": "Node.js, Express, MongoDB",
-        "description": "Learn full-stack web development using Node.js for the backend, Express.js as a framework, and MongoDB as the database to build dynamic and scalable applications.",
-        "image": "https://miro.medium.com/v2/resize:fit:365/1*Jr3NFSKTfQWRUyjblBSKeg.png",
-        "link": "https://BrahimSAA.github.io/Node-js-_Express-_MongoDB",
-        "category": "web-development"
+        id: 36,
+        title: "Node.js, Express, MongoDB",
+        description: "Build full-stack apps with the MERN/MEAN stack backend.",
+        image: "https://miro.medium.com/v2/resize    :fit:365/1*Jr3NFSKTfQWRUyjblBSKeg.png",
+        link: "https://BrahimSAA.github.io/Node-js-_Express-_MongoDB    ",
+        category: "web-development"
     },
     {
-        "title": "Programming with AI",
-        "description": "This course teaches students how to integrate artificial intelligence techniques and tools into software development, covering topics like AI-powered automation, intelligent agents, and machine learning integration. It equips learners with the skills to build innovative applications that leverage the power of AI.",
-        "image": "https://venturebeat.com/wp-content/uploads/2023/08/annevb_the_end_of_programming._colorful_futuristic_tech_3d6db463-375e-4d84-9324-2b045c20313a.png?w=400",
-        "link": "https://BrahimSAA.github.io/Programming_with_AI",
-        "category": "programming"
+        id: 37,
+        title: "Programming with AI",
+        description: "Integrate AI tools and automation into your code.",
+        image: "https://venturebeat.com/wp-content/uploads/2023/08/annevb_the_end_of_programming._colorful_futuristic_tech_3d6db463-375e-4d84-9324-2b045c20313a.png?w=400",
+        link: "    https://BrahimSAA.github.io/Programming_with_AI    ",
+        category: "programming"
     },
     {
-        "title": "NGINX Fundamentals High Performance Servers from Scratch",
-        "description": "Learn the essentials of NGINX, starting from basic setup to building high-performance servers from the ground up. This course covers configuration, optimization, and best practices for deploying robust web servers using NGINX.",
-        "image": "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/9a4da97c3b99.jpg",
-        "link": "https://BrahimSAA.github.io/NGINX_Fundamentals_High_Performance_Servers_from_Scratch",
-        "category": "web-development"
+        id: 38,
+        title: "NGINX Fundamentals High Performance Servers from Scratch",
+        description: "Configure and optimize NGINX for high-traffic web servers.",
+        image: "https://d3f1iyfxxz8i1e.cloudfront.net/courses/course_image/9a4da97c3b99.jpg    ",
+        link: "https://BrahimSAA.github.io/NGINX_Fundamentals_High_Performance_Servers_from_Scratch    ",
+        category: "web-development"
     },
     {
-        "title": "Next.js Simplified",
-        "description": "Learn Next.js quickly and easily with this simplified course, focusing on core concepts and practical application for building modern web applications. Master the fundamentals and best practices for efficient Next.js development.",
-        "image": "https://i.ytimg.com/vi/nHnw3pusFXw/mqdefault.jpg",
-        "link": "https://BrahimSAA.github.io/Next-js_Simplified/",
-        "category": "web-development"
+        id: 39,
+        title: "Next.js Simplified",
+        description: "Quickly learn Next.js for modern React applications.",
+        image: "https://i.ytimg.com/vi/nHnw3pusFXw/mqdefault.jpg    ",
+        link: "https://BrahimSAA.github.io/Next-js_Simplified/    ",
+        category: "web-development"
     },
     {
-        "title": "The Ultimate Redux Course",
-        "description": "Master Redux, the popular state management library, with this comprehensive course covering everything from basic concepts to advanced techniques. Build scalable and maintainable applications by leveraging Redux's powerful ecosystem.",
-        "image": "https://img-c.udemycdn.com/course/240x135/4965902_1592_9.jpg",
-        "link": "https://BrahimSAA.github.io/The_Ultimate_Redux_Course/",
-        "category": "programming"
+        id: 40,
+        title: "The Ultimate Redux Course",
+        description: "Manage app state like a pro with Redux and middleware.",
+        image: "https://img-c.udemycdn.com/course/240x135/4965902_1592_9.jpg    ",
+        link: "https://BrahimSAA.github.io/The_Ultimate_Redux_Course/    ",
+        category: "programming"
     },
     {
-        "title": "The Ultimate React Course React",
-        "description": "Master React development from the fundamentals to advanced concepts, building real-world projects and becoming a confident React developer. This is the definitive course to elevate your React skills.",
-        "image": "https://img-c.udemycdn.com/course/240x135/5512768_ffa4_29.jpg",
-        "link": "https://BrahimSAA.github.io/The_Ultimate_React_Course_React/",
-        "category": "programming"
+        id: 41,
+        title: "The Ultimate React Course React",
+        description: "Master React hooks, components, and real-world projects.",
+        image: "https://img-c.udemycdn.com/course/240x135/5512768_ffa4_29.jpg    ",
+        link: "https://BrahimSAA.github.io/The_Ultimate_React_Course_React/    ",
+        category: "programming"
     },
     {
-        "title": "DevOps Bootcamp Learn Linux & Become a Linux Sysadmin",
-        "description": "This DevOps Bootcamp provides a deep dive into Linux, equipping students with the skills to effectively manage Linux systems and pursue a career as a Linux System Administrator.",
-        "image": "https://images.ctfassets.net/aq13lwl6616q/Lxp7NOjFmtq9IlqyBKgPt/b868427a9f388c8105f051bf1c6062f3/Linux_sysadmin_DevOps_Series.png?w=400&h=225&q=50&fm=png&bg=transparent",
-        "link": "https://BrahimSAA.github.io/DevOps_Bootcamp_Learn_Linux_-_Become_a_Linux_Sysadmin/",
-        "category": "programming"
+        id: 42,
+        title: "DevOps Bootcamp Learn Linux & Become a Linux Sysadmin",
+        description: "Become a Linux sysadmin with DevOps-focused training.",
+        image: "https://images.ctfassets.net/aq13lwl6616q/Lxp7NOjFmtq9IlqyBKgPt/b868427a9f388c8105f051bf1c6062f3/Linux_sysadmin_DevOps_Series.png?w=400&h=225&q=50&fm=png&bg=transparent",
+        link: "    https://BrahimSAA.github.io/DevOps_Bootcamp_Learn_Linux_-_Become_a_Linux_Sysadmin/    ",
+        category: "programming"
     },
     {
-        "title": " Elastic Stack Getting Started",
-        "description": "This course provides a hands-on introduction to the Elastic Stack, covering its core components like Elasticsearch, Kibana, Logstash, and Beats. You'll learn how to ingest, search, analyze, and visualize data using the Elastic Stack.",
-        "image": "https://i.ytimg.com/vi/FImTcHECpC0/mqdefault.jpg",
-        "link": "https://BrahimSAA.github.io/_Elastic_Stack_Getting_Started/",
-        "category": "data-science"
+        id: 43,
+        title: " Elastic Stack Getting Started",
+        description: "Ingest, search, and visualize data with Elasticsearch & Kibana.",
+        image: "https://i.ytimg.com/vi/FImTcHECpC0/mqdefault.jpg    ",
+        link: "https://BrahimSAA.github.io/_Elastic_Stack_Getting_Started/    ",
+        category: "data-science"
     }
-
 ];
 
-// Display courses
-function displayCourses(coursesToShow) {
-    const container = document.getElementById('courses-container');
-    container.innerHTML = '';
+// App state
+const state = {
+    searchTerm: '',
+    activeCategory: 'all',
+    filteredCourses: [...courses]
+};
+
+// DOM elements
+const elements = {
+    container: null,
+    searchInput: null,
+    clearBtn: null,
+    filterBtns: null,
+    noResults: null,
+    resultsInfo: null,
+    resetBtn: null
+};
+
+// Initialize DOM elements
+function initElements() {
+    elements.container = document.getElementById('courses-container');
+    elements.searchInput = document.getElementById('search');
+    elements.clearBtn = document.getElementById('clear-search');
+    elements.filterBtns = document.querySelectorAll('.filter-btn');
+    elements.noResults = document.getElementById('no-results');
+    elements.resultsInfo = document.getElementById('results-info');
+    elements.resetBtn = document.getElementById('reset-search');
+}
+
+// Debounce function for search performance
+function debounce(func, wait) {
+    let timeout;
+    return function executedFunction(...args) {
+        const later = () => {
+            clearTimeout(timeout);
+            func(...args);
+        };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+// Create course card HTML
+function createCourseCard(course) {
+    const card = document.createElement('article');
+    card.className = 'course-card';
+    card.setAttribute('role', 'listitem');
     
-    coursesToShow.forEach(course => {
-        const card = document.createElement('div');
-        card.className = 'course-card';
-        card.innerHTML = `
-            <div class="course-image" style="background-image: url('${course.image}')">
-                <h3 class="course-title">${course.title}</h3>
+    card.innerHTML = `
+        <div class="course-image" style="background-image: url('${course.image}')" role="img" aria-label="${course.title} thumbnail">
+            <!-- Title removed from here -->
+        </div>
+        <div class="course-info">
+            <h2 class="course-title">${course.title}</h2> <!-- Title moved here -->
+            <p class="course-description">${course.description}</p>
+            <a href="${course.link}" class="course-link" target="_blank" rel="noopener noreferrer">
+                Start Course
+                <span class="sr-only">(opens in new tab)</span>
+            </a>
+            <div class="course-meta">
+                <span class="category-tag">${course.category.replace('-', ' ')}</span>
             </div>
-            <div class="course-info">
-                <p class="course-description">${course.description}</p>
-                <a href="${course.link}" class="course-link">Start Course</a>
-                <div class="course-meta">
-                    <span>${course.category}</span>
-                </div>
-            </div>
-        `;
-        container.appendChild(card);
+        </div>
+    `;
+    
+    return card;
+}
+
+// Display courses with animation
+function displayCourses(coursesToShow) {
+    elements.container.innerHTML = '';
+    elements.container.classList.add('loading');
+    
+    // Update results info
+    updateResultsInfo(coursesToShow.length);
+    
+    // Show/hide no results message
+    if (coursesToShow.length === 0) {
+        elements.noResults.style.display = 'block';
+        elements.container.style.display = 'none';
+    } else {
+        elements.noResults.style.display = 'none';
+        elements.container.style.display = 'grid';
+        
+        // Create fragment for better performance
+        const fragment = document.createDocumentFragment();
+        coursesToShow.forEach(course => {
+            fragment.appendChild(createCourseCard(course));
+        });
+        elements.container.appendChild(fragment);
+    }
+    
+    // Remove loading state
+    setTimeout(() => {
+        elements.container.classList.remove('loading');
+    }, 100);
+}
+
+// Update results info
+function updateResultsInfo(count) {
+    let message = '';
+    if (state.searchTerm || state.activeCategory !== 'all') {
+        message = `Found ${count} course${count !== 1 ? 's' : ''}`;
+        if (state.searchTerm) {
+            message += ` matching "${state.searchTerm}"`;
+        }
+        if (state.activeCategory !== 'all') {
+            message += ` in ${state.activeCategory.replace('-', ' ')}`;
+        }
+    }
+    elements.resultsInfo.textContent = message;
+}
+
+// Filter courses
+function filterCourses() {
+    let filtered = [...courses];
+    
+    // Filter by category
+    if (state.activeCategory !== 'all') {
+        filtered = filtered.filter(course => course.category === state.activeCategory);
+    }
+    
+    // Filter by search term
+    if (state.searchTerm) {
+        const term = state.searchTerm.toLowerCase();
+        filtered = filtered.filter(course => 
+            course.title.toLowerCase().includes(term) || 
+            course.description.toLowerCase().includes(term) ||
+            course.category.toLowerCase().includes(term)
+        );
+    }
+    
+    state.filteredCourses = filtered;
+    displayCourses(filtered);
+}
+
+// Handle search
+const handleSearch = debounce((value) => {
+    state.searchTerm = value;
+    elements.clearBtn.classList.toggle('visible', value.length > 0);
+    filterCourses();
+}, 300);
+
+// Handle category filter
+function handleCategoryFilter(category) {
+    state.activeCategory = category;
+    
+    // Update active button
+    elements.filterBtns.forEach(btn => {
+        btn.classList.toggle('active', btn.dataset.category === category);
+    });
+    
+    filterCourses();
+}
+
+// Clear search
+function clearSearch() {
+    elements.searchInput.value = '';
+    state.searchTerm = '';
+    elements.clearBtn.classList.remove('visible');
+    filterCourses();
+}
+
+// Reset filters
+function resetFilters() {
+    clearSearch();
+    handleCategoryFilter('all');
+}
+
+// Lazy load images
+function lazyLoadImages() {
+    if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const img = entry.target;
+                    img.style.backgroundImage = img.dataset.src;
+                    imageObserver.unobserve(img);
+                }
+            });
+        });
+        
+        document.querySelectorAll('.course-image').forEach(img => {
+            imageObserver.observe(img);
+        });
+    }
+}
+
+// Initialize event listeners
+function initEventListeners() {
+    // Search input
+    elements.searchInput.addEventListener('input', (e) => {
+        handleSearch(e.target.value);
+    });
+    
+    // Clear search button
+    elements.clearBtn.addEventListener('click', clearSearch);
+    
+    // Category filters
+    elements.filterBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+            handleCategoryFilter(btn.dataset.category);
+        });
+    });
+    
+    // Reset button
+    elements.resetBtn.addEventListener('click', resetFilters);
+    
+    // Keyboard navigation for search
+    elements.searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape') {
+            clearSearch();
+            elements.searchInput.blur();
+        }
     });
 }
 
-// Search functionality
-document.getElementById('search').addEventListener('input', (e) => {
-    const searchTerm = e.target.value.toLowerCase();
-    const filteredCourses = courses.filter(course => 
-        course.title.toLowerCase().includes(searchTerm) || 
-        course.description.toLowerCase().includes(searchTerm) ||
-        course.category.toLowerCase().includes(searchTerm)
-    );
-    displayCourses(filteredCourses);
-});
+// Initialize app
+function init() {
+    initElements();
+    initEventListeners();
+    displayCourses(courses);
+    
+    // Set up lazy loading after initial render
+    requestAnimationFrame(() => {
+        lazyLoadImages();
+    });
+}
 
-// Initial display
-displayCourses(courses);
+// Start app when DOM is ready
+if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+} else {
+    init();
+}
