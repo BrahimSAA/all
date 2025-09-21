@@ -48,7 +48,7 @@ const courses = [
         description: "From JS fundamentals to modern frameworks like React.",
         image: "https://i.ytimg.com/vi/8w_oH58AvoA/mqdefault.jpg    ",
         link: "https://BrahimSAA.github.io/The_Ultimate_JavaScript_Series    ",
-        category: "web-development"
+        category: "programming"
     },
     {
         id: 7,
@@ -328,7 +328,7 @@ const courses = [
         description: "Master React hooks, components, and real-world projects.",
         image: "https://img-c.udemycdn.com/course/240x135/5512768_ffa4_29.jpg    ",
         link: "https://BrahimSAA.github.io/The_Ultimate_React_Course_React/    ",
-        category: "programming"
+        category: "web-development"
     },
     {
         id: 42,
@@ -583,6 +583,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
