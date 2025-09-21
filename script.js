@@ -48,7 +48,7 @@ const courses = [
         description: "From JS fundamentals to modern frameworks like React.",
         image: "https://i.ytimg.com/vi/8w_oH58AvoA/mqdefault.jpg    ",
         link: "https://BrahimSAA.github.io/The_Ultimate_JavaScript_Series    ",
-        category: "programming"
+        category: "web-development"
     },
     {
         id: 7,
@@ -64,7 +64,7 @@ const courses = [
         description: "Foundational AWS knowledge for cloud certification.",
         image: "https://d2908q01vomqb2.cloudfront.net/9109c85a45b703f87f1413a405549a2cea9ab556/2020/11/10/AWSCloudPractitionerEssentialsBlog_300x150.png    ",
         link: "https://BrahimSAA.github.io/AWS_Certified_Cloud_Practitioner    ",
-        category: "business"
+        category: "cloud"
     },
     {
         id: 9,
@@ -72,7 +72,7 @@ const courses = [
         description: "Core Azure concepts for cloud beginners.",
         image: "https://img-c.udemycdn.com/course/240x135/3140524_2f2f_8.jpg    ",
         link: "https://BrahimSAA.github.io/AZ-900_Microsoft_Azure_Fundamentals    ",
-        category: "Cloud"
+        category: "cloud"
     },
     {
         id: 10,
@@ -80,7 +80,7 @@ const courses = [
         description: "Design scalable, secure systems on AWS.",
         image: "https://img-c.udemycdn.com/course/240x135/5914092_588d_2.jpg    ",
         link: "https://BrahimSAA.github.io/AWS_Certified_Solutions_Architect    ",
-        category: "design"
+        category: "cloud"
     },
     {
         id: 11,
@@ -232,7 +232,7 @@ const courses = [
         description: "Administer and manage Windows Server 2022 environments.",
         image: "https://kavoneinstitute.com/wp-content/uploads/2024/07/Windows-Server-2022-Administration.png    ",
         link: "https://BrahimSAA.github.io/Windows_Server_2022_Administration    ",
-        category: "business"
+        category: "systems"
     },
     {
         id: 30,
@@ -320,7 +320,7 @@ const courses = [
         description: "Manage app state like a pro with Redux and middleware.",
         image: "https://img-c.udemycdn.com/course/240x135/4965902_1592_9.jpg    ",
         link: "https://BrahimSAA.github.io/The_Ultimate_Redux_Course/    ",
-        category: "programming"
+        category: "web-development"
     },
     {
         id: 41,
@@ -583,6 +583,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
