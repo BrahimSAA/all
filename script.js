@@ -6,7 +6,7 @@ const courses = [
         id: 1,
         title: "Linux 101",
         description: "Master essential Linux commands for admins and security pros.",
-        image: "Images/linux_101.png",
+        image: "Images/linux101.png",
         link: "https://BrahimSAA.github.io/Linux_101/    ",
         category: "systems"
     },
@@ -30,7 +30,7 @@ const courses = [
         id: 4,
         title: "Python 101 for Hackers",
         description: "Learn Python basics tailored for security professionals.",
-        image: "https://process.fs.teachablecdn.com/ADNupMnWyR7kCWRvm76Laz/resize=width    :705/https://cdn.filestackcontent.com/qT5GRyTSHWEoH1Euq7ym    ",
+        image: "Images/Python_101.png,
         link: "https://BrahimSAA.github.io/Python_101_for_Hackers/    ",
         category: "programming"
     },
@@ -583,5 +583,6 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
