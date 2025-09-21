@@ -6,7 +6,7 @@ const courses = [
         id: 1,
         title: "Linux 101",
         description: "Master essential Linux commands for admins and security pros.",
-        image: "Images/linux101.png",
+        image: "Images/linux_101.png",
         link: "https://BrahimSAA.github.io/Linux_101/    ",
         category: "systems"
     },
@@ -583,4 +583,5 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
