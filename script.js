@@ -345,6 +345,13 @@ const courses = [
         image: "https://i.ytimg.com/vi/FImTcHECpC0/mqdefault.jpg    ",
         link: "https://BrahimSAA.github.io/_Elastic_Stack_Getting_Started/    ",
         category: "data-science"
+    },
+    {
+        "title": "The Complete Certified in Cybersecurity CC course ISC2",
+        "description": "This course provides complete preparation for the ISC2 Certified in Cybersecurity (CC) certification exam, covering all domains and ensuring exam readiness. It offers a thorough understanding of fundamental cybersecurity concepts and practices.",
+        "image": "https://img-c.udemycdn.com/course/240x135/6169361_cc9d.jpg",
+        "link": "https://BrahimSAA.github.io/The_Complete_Certified_in_Cybersecurity_CC_course_ISC2/",
+        "category": "cybersecurity"
     }
 ];
 
