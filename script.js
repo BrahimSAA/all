@@ -352,6 +352,13 @@ const courses = [
         "image": "https://img-c.udemycdn.com/course/240x135/6169361_cc9d.jpg",
         "link": "https://BrahimSAA.github.io/The_Complete_Certified_in_Cybersecurity_CC_course_ISC2/",
         "category": "cybersecurity"
+    },
+    {
+        "title": "Movement Pivoting and Persistence",
+        "description": "A concise tutorial on lateral movement techniques, pivoting through compromised systems, and maintaining persistent access within a target network.",
+        "image": "Images/MPP.jpeg",
+        "link": "https://brahimsaa.github.io/Movement_Pivoting_and_Persistence/",
+        "category": "cybersecurity"
     }
 ];
 
@@ -590,6 +597,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
