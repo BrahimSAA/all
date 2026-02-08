@@ -303,6 +303,13 @@ const courses = [
         "image": "Images/MPP.jpeg",
         "link": "https://brahimsaa.github.io/Movement_Pivoting_and_Persistence/",
         "category": "cybersecurity"
+    }, 
+    {
+        "title": "SC-900 Microsoft Security, Compliance, Identity Fundamentals",
+        "description": "This course provides foundational knowledge on Microsoft security, compliance, and identity solutions. It is designed for those looking to understand core concepts and services for protecting an organization's assets.",
+        "image": "None",
+        "link": "https://BrahimSAA.github.io/SC-900_Microsoft_Security-_Compliance-_Identity_Fundamentals/",
+        "category": "cybersecurity"
     }
 ];
 
