@@ -115,22 +115,6 @@ const courses = [
         category: "programming"
     },
     {
-        id: 15,
-        title: "The Complete ASP.NET MVC 5 Course",
-        description: "Build web apps with ASP.NET MVC 5.",
-        image: "https://img-c.udemycdn.com/course/240x135/806922_6310_3.jpg    ",
-        link: "https://BrahimSAA.github.io/The_Complete_ASP-NET_MVC_5_Course    ",
-        category: "web-development"
-    },
-    {
-        id: 16,
-        title: "Build a Real-world App with ASP.NET Core and Angular 2 (4+)",
-        description: "Full-stack app with .NET backend and Angular frontend.",
-        image: "https://freecoursesite.com/wp-content/uploads/2018/05/1144726_45a2_2-300x169.jpg    ",
-        link: "https://BrahimSAA.github.io/Build_a_Real-world_App_with_ASP-NET_Core_and_Angular_2_-4--    ",
-        category: "web-development"
-    },
-    {
         id: 17,
         title: "Getting Started with Ansible Automation Made Easy",
         description: "Automate IT infrastructure with simple Ansible playbooks.",
@@ -581,6 +565,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
