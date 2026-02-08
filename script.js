@@ -83,14 +83,6 @@ const courses = [
         category: "cloud"
     },
     {
-        id: 11,
-        title: "CCNA Networking Complete Cisco CCNA 200-301 Prep Course",
-        description: "Full CCNA prep with Cisco networking fundamentals.",
-        image: "https://img-c.udemycdn.com/course/240x135/5623666_17de_5.jpg    ",
-        link: "https://BrahimSAA.github.io/CCNA_Networking__Complete_Cisco_CCNA_200-301_Prep_Course    ",
-        category: "cybersecurity"
-    },
-    {
         id: 12,
         title: "The Ultimate Docker Course",
         description: "Master containers and Docker from beginner to advanced.",
@@ -248,14 +240,6 @@ const courses = [
         description: "Build threat detection rules and security monitoring systems.",
         image: "Images/detection.jpg",
         link: "https://BrahimSAA.github.io/Detection_Engineering_for_Beginners/    ",
-        category: "cybersecurity"
-    },
-    {
-        id: 35,
-        title: "GRC Analyst Master Class",
-        description: "Master Governance, Risk, and Compliance for enterprises.",
-        image: "Images/GRC.png",
-        link: "https://BrahimSAA.github.io/GRC_Analyst_Master_Class    ",
         category: "cybersecurity"
     },
     {
@@ -565,6 +549,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
