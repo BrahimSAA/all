@@ -267,14 +267,6 @@ const courses = [
         category: "cybersecurity"
     },
     {
-        id: 34,
-        title: "Advanced Databases",
-        description: "Master NoSQL, distributed DBs, and high-performance queries.",
-        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_z9Gtz-GV0uMw0JqKvKIv0DQZPGUPbJM8C3MMHu1aBX9_kU8Z6SZs8s9ddqJ-NcjzdUMeSaPUhfVxWrv-Vl9_rl5yXEOdLtrI8wgTmANoPfnogR_YCqJPO85ne4CwNRSc79x4GFX_3bXQm48c2uYjaSSVjD9cCCVpYdrvILMdZdsxtT_CkvJyvsl9Th_8/s320/ADBMS_GMeet%20Discussion%20Board_Aug%2024%202023.jpg    ",
-        link: "https://BrahimSAA.github.io/Advanced_Databases    ",
-        category: "data-science"
-    },
-    {
         id: 35,
         title: "GRC Analyst Master Class",
         description: "Master Governance, Risk, and Compliance for enterprises.",
@@ -312,14 +304,6 @@ const courses = [
         description: "Quickly learn Next.js for modern React applications.",
         image: "https://i.ytimg.com/vi/nHnw3pusFXw/mqdefault.jpg    ",
         link: "https://BrahimSAA.github.io/Next-js_Simplified/    ",
-        category: "web-development"
-    },
-    {
-        id: 40,
-        title: "The Ultimate Redux Course",
-        description: "Manage app state like a pro with Redux and middleware.",
-        image: "https://img-c.udemycdn.com/course/240x135/4965902_1592_9.jpg    ",
-        link: "https://BrahimSAA.github.io/The_Ultimate_Redux_Course/    ",
         category: "web-development"
     },
     {
@@ -597,6 +581,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
