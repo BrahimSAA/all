@@ -251,14 +251,6 @@ const courses = [
         category: "web-development"
     },
     {
-        id: 37,
-        title: "Programming with AI",
-        description: "Integrate AI tools and automation into your code.",
-        image: "Images/AI.webp",
-        link: "    https://BrahimSAA.github.io/Programming_with_AI    ",
-        category: "programming"
-    },
-    {
         id: 38,
         title: "NGINX Fundamentals High Performance Servers from Scratch",
         description: "Configure and optimize NGINX for high-traffic web servers.",
@@ -549,6 +541,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
