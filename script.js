@@ -309,7 +309,7 @@ const courses = [
         "description": "This course provides foundational knowledge on Microsoft security, compliance, and identity solutions. It is designed for those looking to understand core concepts and services for protecting an organization's assets.",
         "image": "None",
         "link": "https://BrahimSAA.github.io/SC-900_Microsoft_Security-_Compliance-_Identity_Fundamentals/",
-        "category": "cybersecurity"
+        "category": "cloud"
     }
 ];
 
@@ -548,6 +548,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
