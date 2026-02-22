@@ -331,6 +331,13 @@ const courses = [
         "image": "None",
         "link": "https://BrahimSAA.github.io/Nmap/",
         "category": "cybersecurity"
+    }, 
+    {
+        "title": "Cybrary-Offensive Penetration Testing",
+        "description": "This course focuses on practical offensive security techniques, teaching students how to identify vulnerabilities and perform ethical hacks. It covers a range of tools and methodologies used in professional penetration testing engagements.",
+        "image": "None",
+        "link": "https://BrahimSAA.github.io/Cybrary-Offensive_Penetration_Testing/",
+        "category": "cybersecurity"
     }
 ];
 
