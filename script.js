@@ -310,6 +310,13 @@ const courses = [
         "image": "None",
         "link": "https://BrahimSAA.github.io/SC-900_Microsoft_Security-_Compliance-_Identity_Fundamentals/",
         "category": "cloud"
+    }, 
+    {
+        "title": "Assembly 101",
+        "description": "Learn the language of computers and how to write your own Assembly code.",
+        "image": "None",
+        "link": "https://brahimsaa.github.io/Assembly_101/",
+        "category": "cybersecurity"
     }
 ];
 
@@ -548,6 +555,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
