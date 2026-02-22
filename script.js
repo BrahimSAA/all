@@ -331,6 +331,13 @@ const courses = [
         "image": "None",
         "link": "https://BrahimSAA.github.io/Nmap/",
         "category": "cybersecurity"
+    }, 
+    {
+        "title": "Nmap",
+        "description": "Learn the fundamentals of Nmap, a powerful open-source network scanner used for network discovery and security auditing. This course covers various scanning techniques, script usage, and interpreting results to identify vulnerabilities.",
+        "image": "None",
+        "link": "https://BrahimSAA.github.io/Nmap/",
+        "category": "cybersecurity"
     }
 ];
 
