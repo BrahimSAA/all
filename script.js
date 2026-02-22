@@ -338,6 +338,13 @@ const courses = [
         "image": "None",
         "link": "https://BrahimSAA.github.io/Cybrary-Offensive_Penetration_Testing/",
         "category": "cybersecurity"
+    }, 
+    {
+        "title": "Advanced Malware Analysis Redux",
+        "description": "This course provides an in-depth exploration of cutting-edge malware analysis techniques, focusing on obfuscation, anti-analysis measures, and advanced threat actor methodologies. Participants will gain practical experience dissecting sophisticated samples and developing robust detection strategies.",
+        "image": "None",
+        "link": "https://BrahimSAA.github.io/Advanced_Malware_Analysis_Redux/",
+        "category": "cybersecurity"
     }
 ];
 
