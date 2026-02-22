@@ -317,6 +317,13 @@ const courses = [
         "image": "None",
         "link": "https://brahimsaa.github.io/Assembly_101/",
         "category": "cybersecurity"
+    }, 
+    {
+        "title": "Intro to PowerShell Scripting",
+        "description": "Dive into the world of PowerShell scripting to automate routine administrative tasks and manage Windows systems efficiently. This introductory course will equip you with essential skills to write effective scripts.",
+        "image": "None",
+        "link": "https://BrahimSAA.github.io/Intro_to_PowerShell_Scripting/",
+        "category": "programming"
     }
 ];
 
