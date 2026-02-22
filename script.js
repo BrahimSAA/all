@@ -324,6 +324,13 @@ const courses = [
         "image": "None",
         "link": "https://BrahimSAA.github.io/Intro_to_PowerShell_Scripting/",
         "category": "programming"
+    }, 
+    {
+        "title": "Nmap",
+        "description": "Nmap (Network Mapper) is a powerful open-source tool for network discovery and security auditing. It allows users to identify hosts, services, operating systems, and potential vulnerabilities on a network.",
+        "image": "None",
+        "link": "https://BrahimSAA.github.io/Nmap/",
+        "category": "cybersecurity"
     }
 ];
 
