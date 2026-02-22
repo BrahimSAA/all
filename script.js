@@ -243,14 +243,6 @@ const courses = [
         category: "cybersecurity"
     },
     {
-        id: 36,
-        title: "Node.js, Express, MongoDB",
-        description: "Build full-stack apps with the MERN/MEAN stack backend.",
-        image: "Images/nodejs.jpg",
-        link: "https://BrahimSAA.github.io/Node-js-_Express-_MongoDB    ",
-        category: "web-development"
-    },
-    {
         id: 38,
         title: "NGINX Fundamentals High Performance Servers from Scratch",
         description: "Configure and optimize NGINX for high-traffic web servers.",
@@ -583,6 +575,7 @@ if (document.readyState === 'loading') {
 } else {
     init();
 }
+
 
 
 
