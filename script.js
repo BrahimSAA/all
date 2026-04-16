@@ -180,7 +180,7 @@ const courses = [
     {
         id: 29,
         title: "Windows Server 2022 Administration",
-        image: "https://kavoneinstitute.com/wp-content/uploads/2024/07/Windows-Server-2022-Administration.png    ",
+        image: "Images/Windows Server 2022.png",
         link: "https://BrahimSAA.github.io/Windows_Server_2022_Administration    ",
         category: "systems"
     },
