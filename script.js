@@ -340,8 +340,8 @@ const courses = [
     }, 
     {
         "title": "Security Operations (SOC) 201",
-        "description": "This course builds upon foundational SOC principles, focusing on advanced techniques for threat detection, incident response, and security monitoring. Students will develop practical skills in analyzing security events and mitigating cyber threats in a live SOC environment.",
-        "image": "None",
+        "description": "Advanced SOC training in threat detection, incident response, and security monitoring with hands-on practice.",
+        "image": "Images/SOC-201.png",
         "link": "https://BrahimSAA.github.io/Security_Operations_-SOC-_201/",
         "category": "cybersecurity"
     }
