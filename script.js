@@ -261,37 +261,37 @@ const courses = [
     }, 
     {
         "title": "SC-900 Microsoft Security, Compliance, Identity Fundamentals",
-        "image": "None",
+        "image": "Images/SC-900.webp",
         "link": "https://BrahimSAA.github.io/SC-900_Microsoft_Security-_Compliance-_Identity_Fundamentals/",
         "category": "cloud"
     }, 
     {
         "title": "Assembly 101",
-        "image": "None",
+        "image": "Images/Assembly-101.png",
         "link": "https://brahimsaa.github.io/Assembly_101/",
         "category": "cybersecurity"
     }, 
     {
         "title": "Intro to PowerShell Scripting",
-        "image": "None",
+        "image": "Images/powershell_scripting.webp",
         "link": "https://BrahimSAA.github.io/Intro_to_PowerShell_Scripting/",
         "category": "programming"
     }, 
     {
         "title": "Nmap",
-        "image": "None",
+        "image": "Images/Nmap.webp",
         "link": "https://BrahimSAA.github.io/Nmap/",
         "category": "cybersecurity"
     }, 
     {
-        "title": "Cybrary-Offensive Penetration Testing",
-        "image": "None",
+        "title": "Cybrary - Offensive Penetration Testing",
+        "image": "Images/Cybrary_offensive_penetration_testing.jpg",
         "link": "https://BrahimSAA.github.io/Cybrary-Offensive_Penetration_Testing/",
         "category": "cybersecurity"
     }, 
     {
         "title": "Advanced Malware Analysis Redux",
-        "image": "None",
+        "image": "Images/Advanced Malware Analysis Redux.webp",
         "link": "https://BrahimSAA.github.io/Advanced_Malware_Analysis_Redux/",
         "category": "cybersecurity"
     }, 
