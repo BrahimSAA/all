@@ -314,9 +314,8 @@ const courses = [
         "category": "programming"
     }, 
     {
-        "title": "CSharp Advanced Topics - Prepare for Technical Interviews",
-        "description": "This course dives into advanced C# features such as async/await, LINQ, generics, and reflection, alongside common data structures and algorithms. It's designed to equip you with the knowledge and problem-solving skills necessary to excel in technical interviews for C# development roles.",
-        "image": "None",
+        "title": "C# Advanced Topics - Prepare for Technical Interviews",
+        "image": "Images/csharp3.webp",
         "link": "https://BrahimSAA.github.io/CSharp_Advanced_Topics_-_Prepare_for_Technical_Interviews/",
         "category": "programming"
     }
