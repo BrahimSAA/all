@@ -307,6 +307,13 @@ const courses = [
         "image": "None",
         "link": "https://BrahimSAA.github.io/CSharp_Basics_for_Beginners_-_Learn_CSharp_Fundamentals_by_Coding/",
         "category": "programming"
+    }, 
+    {
+        "title": "CSharp Intermediate - Classes, Interfaces and Object-oriented Programming",
+        "description": "This course explores intermediate C# concepts, focusing on object-oriented programming principles using classes, interfaces, inheritance, and polymorphism. Students will learn to design robust and extensible applications following industry best practices.",
+        "image": "None",
+        "link": "https://BrahimSAA.github.io/CSharp_Intermediate_-_Classes-_Interfaces_and_Object-oriented_Programming/",
+        "category": "programming"
     }
 ];
 
