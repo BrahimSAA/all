@@ -300,6 +300,13 @@ const courses = [
         "image": "Images/SOC-201.png",
         "link": "https://BrahimSAA.github.io/Security_Operations_-SOC-_201/",
         "category": "cybersecurity"
+    }, 
+    {
+        "title": "CSharp Basics for Beginners - Learn CSharp Fundamentals by Coding",
+        "description": "This course introduces absolute beginners to the core concepts of C# programming. Learners will grasp fundamental principles and build practical coding skills through hands-on exercises.",
+        "image": "None",
+        "link": "https://BrahimSAA.github.io/CSharp_Basics_for_Beginners_-_Learn_CSharp_Fundamentals_by_Coding/",
+        "category": "programming"
     }
 ];
 
